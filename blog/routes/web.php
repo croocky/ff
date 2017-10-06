@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/users', 'TestController@index');
+Route::post('update', 'UpdateController@index')->name('update');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
