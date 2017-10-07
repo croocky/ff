@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('introduction');
 });
 Route::get('/users', 'TestController@index');
 Route::post('update', 'UpdateController@index')->name('update');
