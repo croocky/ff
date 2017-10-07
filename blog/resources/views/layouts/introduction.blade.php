@@ -32,6 +32,7 @@
 <body>
 
   <div class="content content_guest">
+    @extends('layouts.app')
      @yield('header')
 <div class="chart">
 </div>
