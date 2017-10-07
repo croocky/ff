@@ -1,5 +1,8 @@
 //AJAX PAGES
 
+
+console.log('maximka1');
+
 var pages = {
   indexpage:['/index.html','/'],
   services:'/services.html',
@@ -47,7 +50,7 @@ function checkajaxpage(){
 
   return false;
 }
-  
+
 
 function fullpageload(){
 
@@ -58,7 +61,7 @@ function fullpageload(){
    // $('head').append($("<link rel='stylesheet' class='imblack' href='css/black.css' type='text/css' />"));
   } else {
     $('.content-ajax-wrapper').css('height','auto');
-   // $('.imblack').remove(); 
+   // $('.imblack').remove();
   }
 
   // OWL SERVICES
@@ -369,5 +372,3 @@ $(document).ready(function() {
 
    });
 });
-
-

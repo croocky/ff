@@ -16,7 +16,6 @@ html {
 	    z-index: 1;
     position: relative;
 }
-
 .content_hide {
 	margin-left: -300px;
 	opacity: .5;

@@ -7,6 +7,8 @@
     left: 0px;
     z-index: 0;
 }
+
+
 .cb-slideshow:after {
     content: '';
     background: transparent url(../../img/pattern.png) repeat top left;
