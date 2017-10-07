@@ -30,9 +30,9 @@
 </head>
 <body>
   <div class="content">
-  @include('header')
+
   @yield('content')
-  @include('modalwindows')
+
 </div>
 </body>
 </html>
