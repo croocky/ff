@@ -222,7 +222,6 @@
       <script src="{!! asset('js/all.js') !!}"></script>
 
       <script>
-      window.$ = window.jQuery = require('jquery');
 
         window.onscroll = function() {
           if($(window).scrollTop()>$('.cb-slideshow').height()){
