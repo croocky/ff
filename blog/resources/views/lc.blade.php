@@ -1,38 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Swifty</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="stylesheet" href="{!! asset('css/all.css') !!}">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-
-</head>
-<body>
-  <div class="content content_guest">
-      //= templates/header.html
-
+@extends('layouts.index')
+@section('content')
       <div class="content__inner">
 
         <div class="sector sector_mini profile">
@@ -206,53 +173,4 @@
 
       </div>
 
-
-    </div>
-
-    <div class="rightsidebar login">
-      <div class="profile-nav">
-        <div class="profile-nav__heading">
-          <img class="profile-nav__heading-img" src="imgsvg/profile.svg" alt="Photo">
-          <div class="profile-nav__heading-name">Владислав Назаров</div>
-          <div class="profile-nav__heading-login">@<span class="profile-nav__heading-login-data">vladislavn</span></div>
-        </div>
-        <div class="profile-nav__wallet">
-          <img class="profile-nav__wallet-i" src="imgsvg/wallet.svg" alt="Photo">
-          <div class="profile-nav__wallet-lable">Личный счет #<span class="profile-nav__wallet-lable-data">000001995</span></div>
-          <div class="profile-nav__wallet-amount"><img class="profile-nav__wallet-amount-i" src="imgsvg/dollar.svg" alt="$"><span class="profile-nav__wallet-amount-data">1488.00</span></div>
-        </div>
-        <a href="#" class="profile-nav__big-b">
-          Пополнить счет
-        </a>
-        <div class="profile-nav__select">
-          <a href="#" class="profile-nav__select-item profile-nav__select-item_active">
-            Партнерская программа
-          </a>
-          <a href="#" class="profile-nav__select-item">
-            Инвестиции в майнинг
-          </a>
-        </div>
-        <div class="profile-nav__list">
-          <a href="#" class="profile-nav__list-item">
-            <img src="imgsvg/structura.svg" class="profile-nav__list-item-i" alt="">
-            <span class="profile-nav__list-item-t">Cтруктура</span>
-          </a>
-          <a href="#" class="profile-nav__list-item">
-            <img src="imgsvg/history.svg" class="profile-nav__list-item-i" alt="">
-            <span class="profile-nav__list-item-t">История операций</span>
-          </a>
-          <a href="#" class="profile-nav__list-item">
-            <img src="imgsvg/getmoney.svg" class="profile-nav__list-item-i" alt="">
-            <span class="profile-nav__list-item-t">Вывод средств</span>
-          </a>
-          <a href="#" class="profile-nav__list-item">
-            <img src="imgsvg/cogs.svg" class="profile-nav__list-item-i" alt="">
-            <span class="profile-nav__list-item-t">Настройки</span>
-          </a>
-        </div>
-
-      </div>
-    </div>
-
-</body>
-</html>
+      @endsection
