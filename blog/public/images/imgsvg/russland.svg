@@ -1,0 +1,28 @@
+<svg width="28" height="18" viewBox="0 0 28 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>russland</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-188 484)">
+<g id="russland">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Rectangle 7">
+<use xlink:href="#path0_fill" transform="translate(188 -484)" fill="#F2F2F2"/>
+</g>
+</mask>
+<g id="Group" mask="url(#mask0_alpha)">
+<g id="Rectangle 7">
+<use xlink:href="#path1_fill" transform="translate(188 -484)" fill="#F2F2F2"/>
+</g>
+<g id="Rectangle 7">
+<use xlink:href="#path1_fill" transform="translate(188 -478)" fill="#2F80ED"/>
+</g>
+<g id="Rectangle 7">
+<use xlink:href="#path1_fill" transform="translate(188 -472)" fill="#EB5757"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 3C 0 1.34315 1.34315 0 3 0L 25 0C 26.6569 0 28 1.34315 28 3L 28 15C 28 16.6569 26.6569 18 25 18L 3 18C 1.34315 18 0 16.6569 0 15L 0 3Z"/>
+<path id="path1_fill" d="M 0 0L 28 0L 28 6L 0 6L 0 0Z"/>
+</defs>
+</svg>

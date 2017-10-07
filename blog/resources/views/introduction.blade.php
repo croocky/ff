@@ -34,7 +34,7 @@
   <div class="content content_guest">
     <header class="header">
 	<a href="#" class="header__logo-w">
-		<img src="imgsvg/logo.svg" class="header__logo" alt="Logo">
+		<img src="{!! asset('images/imgsvg/logo.svg') !!}" class="header__logo" alt="Logo">
 	</a>
 
 	<nav class="nav">
