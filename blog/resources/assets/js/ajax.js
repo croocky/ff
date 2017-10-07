@@ -1,5 +1,7 @@
 //AJAX PAGES
 
+var $ = require('jquery');
+
 
 console.log('maximka1');
 
