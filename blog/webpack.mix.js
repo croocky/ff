@@ -14,7 +14,9 @@ let mix = require('laravel-mix');
 mix.js(['resources/assets/js/ajax.js',
   'resources/assets/js/my.js'
   ], 'public/js/all.js')
-    .styles(['resources/assets/css/animate.css',
+    .styles(['node_modules/skeleton-css/css/normalize.css',
+    'node_modules/skeleton-css/css/skeleton.css',
+    'resources/assets/css/animate.css',
     'resources/assets/css/app.css',
     'resources/assets/css/demo.css',
     'resources/assets/css/stars.css',
