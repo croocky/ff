@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('intro');
 });
+
+
+Route::get('/lc', function () {
+    return view('lc');
+});
+
 Route::get('/users', 'TestController@index');
 Route::post('update', 'UpdateController@index')->name('update');
 Auth::routes();
