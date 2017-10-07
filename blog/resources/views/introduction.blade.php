@@ -191,10 +191,11 @@
       </div>
     </div>
     <div class="login__content">
-      <input type="text">
-      <input type="text">
+      <form action ='{{Route("login")}}' method = 'post'>
+      <input name ='login' type="text">
+      <input name ='password' type="password">
       <input type="submit" value="Войти">
-
+      </form>
       <div class="login__lable">
         <div class="login__lable-item">
           <img class="login__lable-item-img" src="imgsvg/cap.svg" alt="Cap">
