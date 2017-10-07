@@ -222,8 +222,8 @@
       <script src="{!! asset('js/all.js') !!}"></script>
 
       <script>
-      var $ = require('jquery');
-      
+      window.$ = window.jQuery = require('jquery');
+
         window.onscroll = function() {
           if($(window).scrollTop()>$('.cb-slideshow').height()){
                 $('.header').addClass('header_bg');
