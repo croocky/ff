@@ -31,7 +31,65 @@
 <body>
   <div class="content">
 
+    <header class="header">
+    <a href="#" class="header__logo-w">
+    <img src="{!! asset('images/imgsvg/logo.svg') !!}" class="header__logo" alt="Logo">
+    </a>
+
+    <nav class="nav">
+    <a href="#" class="nav__item nav__item_active">Добрый вечер</a>
+    <a href="#" class="nav__item nav__item_active">Возможности</a>
+    <a href="#" class="nav__item nav__item_active">Инвесторам</a>
+    <a href="#" class="nav__item nav__item_active">FAQ</a>
+    <a href="#" class="nav__item nav__item_active">О нас</a>
+    <!--<a href="#" class="nav__item nav__item_active"><img src="imgsvg/russland.svg" alt="" class="header__lang-img"></a>-->
+    <a class="nav__item nav__item_right nav__item_active" onclick="openlogin()"><img class="nav__item__img" src="imgsvg/login.svg" alt="LC" >Личный кабинет</a>
+    </nav>
+
+    <a href="#" class="header__lang">
+
+    </a>
+
+    </header>
+
   @yield('content')
+
+  <div class="login rightsidebar">
+    <div class="login__heading-nav">
+      <div class="login__heading-nav-item login__heading-nav-item_active">
+        Войти
+      </div>
+      <div class="login__heading-nav-item ">
+        Регистрация
+      </div>
+    </div>
+    <div class="login__content">
+      <form action ='{{Route("login")}}' method = 'post'>
+      <input name ='login' type="text">
+      <input name ='password' type="password">
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+        <input type="submit" value="Войти">
+      </form>
+      <div class="login__lable">
+        <div class="login__lable-item">
+          <img class="login__lable-item-img" src="imgsvg/cap.svg" alt="Cap">
+          <span class="login__lable-item-text">Ваши инвестиции застрахованны</span>
+        </div>
+        <div class="login__lable-item">
+          <img class="login__lable-item-img" src="imgsvg/visa.svg" alt="Visa">
+          <span class="login__lable-item-text">Выплаты на международные платежные  системы</span>
+        </div>
+        <div class="login__lable-item">
+          <img class="login__lable-item-img" src="imgsvg/key.svg" alt="Key">
+          <span class="login__lable-item-text">Ваши персональные данные под надежной защитой</span>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
 
 </div>
 </body>
