@@ -12,7 +12,6 @@ let mix = require('laravel-mix');
  */
 
 mix.js(['node_modules/jquery/dist/jquery.min.js',
-'resources/assets/js/ajax.js',
   'resources/assets/js/my.js'
   ], 'public/js/all.js')
     .styles(['node_modules/skeleton-css/css/normalize.css',
