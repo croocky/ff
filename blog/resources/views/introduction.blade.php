@@ -23,7 +23,7 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="{!! asset('css/app.css') !!}">
+  <link rel="stylesheet" href="{!! asset('css/all.css') !!}">
 
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
