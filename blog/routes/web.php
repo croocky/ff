@@ -19,3 +19,4 @@ Route::post('update', 'UpdateController@index')->name('update');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('login', 'Auth\LoginController@__construct')->name('login');

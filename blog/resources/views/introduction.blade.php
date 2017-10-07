@@ -191,10 +191,13 @@
       </div>
     </div>
     <div class="login__content">
-      <input type="text">
-      <input type="text">
-      <input type="submit" value="Войти">
+      <form action ='{{Route("login")}}' method = 'post'>
+      <input name ='login' type="text">
+      <input name ='password' type="password">
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
+        <input type="submit" value="Войти">
+      </form>
       <div class="login__lable">
         <div class="login__lable-item">
           <img class="login__lable-item-img" src="imgsvg/cap.svg" alt="Cap">
