@@ -25,7 +25,7 @@ bin-release/
 # Ada Library Information
 *.ali
 ### Laravel template
-vendor/
+
 node_modules/
 npm-debug.log
 
