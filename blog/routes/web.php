@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('lc');
+    return view('/');
 });
 
 Route::get('/lc', function () {
