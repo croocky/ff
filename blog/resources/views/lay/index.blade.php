@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="login__content">
-      <form action ='{{Route("login")}}' method = 'post'>
+      <form action ='' method = 'post'>
       <input name ='login' type="text">
       <input name ='password' type="password">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
