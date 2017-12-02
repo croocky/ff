@@ -12,20 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('intro');
+    return view('welcome');
 });
-
-
-Route::get('/lc', function () {
-    return view('lc');
-});
-
-Route::get('/users', 'TestController@index');
-Route::post('update', 'UpdateController@index')->name('update');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-Route::post('login', 'Auth\LoginController@__construct')->name('login');
-Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
