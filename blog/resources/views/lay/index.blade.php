@@ -73,7 +73,7 @@
       </form>
       <div class="login__lable">
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="imgsvg/cap.svg" alt="Cap">
+          <img class="login__lable-item-img" src="{{ asset('imgsvg/cap.svg') }}" alt="Cap">
           <span class="login__lable-item-text">Ваши инвестиции застрахованны</span>
         </div>
         <div class="login__lable-item">
