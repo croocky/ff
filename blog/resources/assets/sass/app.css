@@ -38,6 +38,7 @@ a {
 .header {
 	position: fixed;
 	z-index: 3;
+	    background: #1c222a;
 	width: 100%;
 }
 
