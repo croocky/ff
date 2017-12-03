@@ -39,17 +39,17 @@
       <div class="row text-center">
         <div class="four columns">
           <div class="subheading"> НЕВЕРОЯТНЫИ РОСТ</div>
-          <img src="imgsvg/i-increase.svg" alt="Increase" class="i-big">
+          <img src="{{ asset('imgsvg/i-increase.svg') }}" alt="Increase" class="i-big">
           <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
         </div>
         <div class="four columns">
           <div class="subheading"> ЗАМОК WI-FI</div>
-          <img src="imgsvg/i-secure.svg" alt="Increase" class="i-big">
+          <img src="{{ asset('imgsvg/i-secure.svg') }}" alt="Increase" class="i-big">
           <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
         </div>
         <div class="four columns">
           <div class="subheading">ПЛАНЕТА ЗЕМЛЯ</div>
-          <img src="imgsvg/i-world.svg" alt="Increase" class="i-big">
+          <img src="{{ asset('imgsvg/i-world.svg') }}" alt="Increase" class="i-big">
           <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
         </div>
       </div>
@@ -60,23 +60,23 @@
 
     <div class="sector">
         <div class="heading">FOR TRAIDERS</div>
-        <img src="imgsvg/world.svg" class="img_full-page" alt="heading">
+        <img src="{{ asset('imgsvg/world.svg') }}" class="img_full-page" alt="heading">
         <br>
         <div class="row text-center">
           <div class="three columns">
-            <img src="imgsvg/germany.svg" alt="Germany" class="i-flag">
+            <img src="{{ asset('imgsvg/germany.svg') }}" alt="Germany" class="i-flag">
             <div class="subheading subheading_thin">Германия</div>
           </div>
           <div class="three columns">
-            <img src="imgsvg/belgium.svg" alt="Belgium" class="i-flag">
+            <img src="{{ asset('imgsvg/belgium.svg') }}" alt="Belgium" class="i-flag">
             <div class="subheading subheading_thin">Бельгия</div>
           </div>
           <div class="three columns">
-            <img src="imgsvg/czech-republic.svg" alt="Belgium" class="i-flag">
+            <img src="{{ asset('imgsvg/czech-republic.svg') }}" alt="Belgium" class="i-flag">
             <div class="subheading subheading_thin">Чехия</div>
           </div>
           <div class="three columns">
-            <img src="imgsvg/denmark.svg" alt="Denmark" class="i-flag">
+            <img src="{{ asset('imgsvg/denmark.svg') }}" alt="Denmark" class="i-flag">
             <div class="subheading subheading_thin">Дания</div>
           </div>
         </div>
