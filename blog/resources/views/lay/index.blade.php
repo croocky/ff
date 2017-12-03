@@ -33,7 +33,7 @@
 
     <header class="header">
     <a href="#" class="header__logo-w">
-    <img src="{!! asset('images/imgsvg/logo.svg') !!}" class="header__logo" alt="Logo">
+    <img src="{ asset('images/imgsvg/logo.svg') }" class="header__logo" alt="Logo">
     </a>
 
     <nav class="nav">
@@ -42,8 +42,7 @@
     <a href="#" class="nav__item nav__item_active">Инвесторам</a>
     <a href="#" class="nav__item nav__item_active">FAQ</a>
     <a href="#" class="nav__item nav__item_active">О нас</a>
-    <!--<a href="#" class="nav__item nav__item_active"><img src="imgsvg/russland.svg" alt="" class="header__lang-img"></a>-->
-    <a class="nav__item nav__item_right nav__item_active" onclick="openlogin()"><img class="nav__item__img" src="imgsvg/login.svg" alt="LC" >Личный кабинет</a>
+    <a class="nav__item nav__item_right nav__item_active" onclick="openlogin()"><img class="nav__item__img" src="{ asset('imgsvg/login.svg') }" alt="LC" >Личный кабинет</a>
     </nav>
 
     <a href="#" class="header__lang">
@@ -77,11 +76,11 @@
           <span class="login__lable-item-text">Ваши инвестиции застрахованны</span>
         </div>
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="imgsvg/visa.svg" alt="Visa">
+          <img class="login__lable-item-img" src="{{ asset('imgsvg/visa.svg') }}" alt="Visa">
           <span class="login__lable-item-text">Выплаты на международные платежные  системы</span>
         </div>
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="imgsvg/key.svg" alt="Key">
+          <img class="login__lable-item-img" src="{{ asset('imgsvg/key.svg') }}" alt="Key">
           <span class="login__lable-item-text">Ваши персональные данные под надежной защитой</span>
         </div>
       </div>
