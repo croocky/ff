@@ -8,13 +8,13 @@
                 <div class="profile-level">
                   <div class="profile-level__heading">
                     <img class="profile-level__heading-i" src="/imgsvg/medal.svg" alt="Medal">
-                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login}}</span></div>
+                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login }}</span></div>
                     <div class="profile-level__heading-level">Уровень <span class="profile-level__heading-level-data">3</span></div>
                   </div>
 
                   <div class="level-bar">
                     <div class="level-bar__ready"></div>
-                    <div class="level-bar__t">$27000/$40000</div>
+                    <div class="level-bar__t">${{ $user->deposit }}/$40000</div>
                   </div>
 
                   <div class="profile-level__alreadygot">

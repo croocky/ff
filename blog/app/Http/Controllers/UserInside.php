@@ -27,8 +27,12 @@ class UserInside extends Controller
         if (Auth::check())
         {
             $id = Auth::id();
-            $result = DB::table('users')->where('id', $id)->get(); ;
-            var_dump($result);
+            $result = DB::table('users')->where('id', $id)->get();
+            $result= $result->toArray();
+            $result = $result[0];
+            $refferals = explode(',',$result->structure);
+            var_dump( $refferals);
+
             return view('lc', ['user' => $result]);
         }
         else{
