@@ -75,15 +75,15 @@
       </form>
       <div class="login__lable">
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="{{ asset('imgsvg/cap.svg') }}" alt="Cap">
+          <img class="login__lable-item-img" src="{{ asset('/imgsvg/cap.svg') }}" alt="Cap">
           <span class="login__lable-item-text">Ваши инвестиции застрахованны</span>
         </div>
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="{{ asset('imgsvg/visa.svg') }}" alt="Visa">
+          <img class="login__lable-item-img" src="{{ asset('/imgsvg/visa.svg') }}" alt="Visa">
           <span class="login__lable-item-text">Выплаты на международные платежные  системы</span>
         </div>
         <div class="login__lable-item">
-          <img class="login__lable-item-img" src="{{ asset('imgsvg/key.svg') }}" alt="Key">
+          <img class="login__lable-item-img" src="{{ asset('/imgsvg/key.svg') }}" alt="Key">
           <span class="login__lable-item-text">Ваши персональные данные под надежной защитой</span>
         </div>
       </div>
@@ -97,6 +97,7 @@
 </div>
 <div class="windows">
   <div class="wi-nav windows__item">
+    <div class="wi__close"><img src="{{ asset('/imgsvg/close.svg') }}" alt="Close"></div>
     <a href="#" class="wi-nav__item">Добрый вечер</a>
     <a href="#" class="wi-nav__item">Возможности</a>
     <a href="#" class="wi-nav__item">Инвесторам</a>
