@@ -712,6 +712,15 @@ margin-right: 15px;
 	color: #fff;
 }
 
-.intro-registration {
-	background: red;
+.button-registration {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	z-index: 2;
+	width: 100%;
+	color: #fff;
+}
+
+.button-registration__inner {
+	
 }
