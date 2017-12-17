@@ -1,7 +1,7 @@
 var windows = 0;
 $(document).ready(function(){
 
-  $('body').children().wrapAll('<div class="windows-all">')
+  //$('body').children().wrapAll('<div class="windows-all">')
   $('body').append('<div class="windows"></div>');
   $('body').append('<div class="windows-overlay"></div>');
 
