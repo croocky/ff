@@ -16,6 +16,10 @@ $(document).ready(function(){
   $('.windows-overlay').click(function(){
     closeWindows();
   })
+
+  $(document).on('click','.wi__close',function(){
+    closeWindows();
+  });
 });
 
 function openWindow(name){
