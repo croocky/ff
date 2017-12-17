@@ -9,6 +9,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Levels;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
@@ -28,7 +29,8 @@ class UserInside extends Controller
         {
             $id = Auth::id();
             $currentuser = User::find($id);
-
+            $levels = Levels::all();
+            var_dump($levels);
 
 
             return view('lc', ['user' => $currentuser]);
