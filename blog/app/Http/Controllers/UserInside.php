@@ -30,7 +30,9 @@ class UserInside extends Controller
             $result = DB::table('users')->where('id', $id)->get();
             $result= $result->toArray();
             $result = $result[0];
-           
+            $refferals = explode(',',$result->structure);
+            var_dump( $refferals);
+
             return view('lc', ['user' => $result]);
         }
         else{
