@@ -24,6 +24,9 @@ const app = new Vue({
 
 global.$ = global.jQuery = require('jquery');
 
-require('./design');
 
 global.windows = require('./windows');
+
+
+
+require('./design');
