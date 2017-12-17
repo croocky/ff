@@ -143,25 +143,12 @@ $(document).ready(function () {
   $('body').append('<div class="windows"></div>');
   $('body').append('<div class="windows-overlay"></div>');
 
-  $('.windows-overlay').css('position', 'fixed');
-  $('.windows-overlay').css('top', '0');
-  $('.windows-overlay').css('width', '100%');
-  $('.windows-overlay').css('height', '100%');
-  $('.windows-overlay').css('background', 'rgba(51, 51, 51, 0.51)');
-  $('.windows-overlay').css('display', 'none');
-  $('.windows-overlay').css('z-index', '1');
-  $('.windows-all').css('z-index', '1');
-  $('.windows').css('z-index', '2');
-  $('.windows-all').css('width', '100%');
-  $('.windows').css('position', 'relative');
-  $('.windows').css('display', 'none');
-
   $('.windows-overlay').click(function () {
     closeWindows();
   });
 });
 
-function openWindows(name) {
+function openWindow(name) {
   if ($('.windows-all').hasClass('hide')) {
     return false;
   }
@@ -169,22 +156,23 @@ function openWindows(name) {
   windows = $(window).scrollTop();
 
   $('.windows-all').css('margin-top', '-' + (windows + 50) + 'px');
-  $('.windows-all').css('position', 'fixed');
-  $('.windows-overlay').css('display', 'block');
-  $('.windows').css('display', 'block');
+
+  $('.window-all').addClass('windows-all_open');
+  $('.windows-overlay').addClass('windows-overlay_open');
+  $('.windows').addClass('windows_open');
 
   $(name).show();
 };
 
 function closeWindows() {
-  $(name).hide();
+  $('windows-item').hide();
   $(window).scrollTop(windows);
 
-  $('.windows-all').css('margin-top', '0');
-  $('.windows-all').css('overflow-y', 'hidden');
-  $('.windows-all').css('position', 'static');
-  $('.windows-overlay').css('display', 'none');
-  $('.windows').css('display', 'none');
+  $('.windows-all').attr('style', '');
+
+  $('.window-all').removeClass('windows-all_open');
+  $('.windows-overlay').removeClass('windows-overlay_open');
+  $('.windows').removeClass('windows_open');
 
   windows = $(window).scrollTop(windows);
 };
