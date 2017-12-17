@@ -34,7 +34,7 @@
   <div class="content windows-all">
 
     <header class="header">
-    <a href="#" class="header__logo-w">
+    <a href="/" class="header__logo-w">
     <img src="{{ asset('imgsvg/logo.svg') }}" class="header__logo" alt="Logo">
     </a>
 
