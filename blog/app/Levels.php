@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Levels extends Model
 {
-    public function getAllData(){
+    public static function getAllData(){
         $data = Levels::all();
         return $data;
     }
