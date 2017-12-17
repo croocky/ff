@@ -1,6 +1,6 @@
 @extends('lay.index')
 @section('content')
-      <div class="content__inner">
+
 
         <div class="sector sector_mini profile">
           <div class="profile">
@@ -170,6 +170,5 @@
         </div>
 
 
-      </div>
 
       @endsection

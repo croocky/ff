@@ -1,12 +1,11 @@
 @extends('lay.index')
 @section('content')
-<div class="content content_guest">
+
 
 <div class="chart">
 </div>
 
 
-  <div class="content__inner">
 
     <ul class="cb-slideshow">
         <li><span>Image 01</span><div><h3>тех·но·логии</h3></div></li>
@@ -120,5 +119,4 @@
   <footer class="footer">THERE SHOULD BE FOOTER</footer>
 
 
-</div>
 @endsection

@@ -53,8 +53,10 @@
     <img onclick="windows.openWindow('.wi-nav')" class="header__burger" src="{{ asset('imgsvg/burger.svg') }}" alt="Nav">
 
     </header>
+          <div class="content__inner">
 
   @yield('content')
+</div>
 
   <div class="login rightsidebar">
     <div class="login__heading-nav">
