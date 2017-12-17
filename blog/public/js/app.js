@@ -140,9 +140,6 @@ $(document).ready(function () {
 });
 
 function openWindow(name) {
-  if ($('.windows-all').hasClass('hide')) {
-    return false;
-  }
 
   scrollTopHeight = $(window).scrollTop();
 
@@ -152,11 +149,12 @@ function openWindow(name) {
   $('.windows-overlay').addClass('windows-overlay_open');
   $('.windows').addClass('windows_open');
 
+  $('windows__item').hide();
   $(name).show();
 };
 
 function closeWindows() {
-  $('windows-item').hide();
+  $('windows__item').hide();
   $(window).scrollTop(windows);
 
   $('.windows-all').attr('style', '');
