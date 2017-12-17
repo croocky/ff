@@ -9,7 +9,7 @@
                   <div class="profile-level__heading">
                     <img class="profile-level__heading-i" src="/imgsvg/medal.svg" alt="Medal">
                    <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login }}</span></div>
-                    <div class="profile-level__heading-level">Уровень <span class="profile-level__heading-level-data">3</span></div>
+                    <div class="profile-level__heading-level">Уровень <span class="profile-level__heading-level-data">{{ $level->id }}</span></div>
                   </div>
 
                   <div class="level-bar">
@@ -19,7 +19,7 @@
 
                   <div class="profile-level__alreadygot">
                       <div class="profile-level__alreadygot-heading">
-                        <span class="profile-level__alreadygot-heading-data">7</span>% Выплата
+                        <span class="profile-level__alreadygot-heading-data">{{ $level->percentage }}</span>% Выплата
                       </div>
                       <div class="profile-level__willget-heading">
                         <span class="profile-level__willget-heading-data">11</span>% Следующий уровень выплаты
