@@ -24,15 +24,6 @@
     </div>
 
 
-    <div class="sector bg_hot">
-      <div class="heading">SWIFTY — ВЫСОКОТЕХНОЛОГИЧНЫЙ ПОДХОД К ИНВЕСТИЦИЯМ</div>
-      <img src="imgsvg/heading.svg" class="img_full-page" alt="heading">
-      <img src="imgsvg/mousedown.svg" alt="" class="mousedown">
-
-      <div id="large-header" class="large-header">
-      <canvas id="demo-canvas"></canvas>
-      </div>
-    </div>
 
     <div class="sector bg_black">
       <div class="heading text_white">ADVANTAGES</div>
