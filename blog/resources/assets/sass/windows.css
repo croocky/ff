@@ -38,3 +38,10 @@
 .windows__item {
   display: none;
 }
+
+.wi__close {
+	margin: 0 auto;
+	display: block;
+	width: 41px;
+	padding: 15px;
+}
