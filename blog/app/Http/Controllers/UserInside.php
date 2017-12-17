@@ -25,6 +25,9 @@ class UserInside extends Controller
 
     public function show($login)
     {
+
+        $user = Auth::user();
+        echo $user;
         if (Auth::check())
         {
             //$id = Auth::id();
