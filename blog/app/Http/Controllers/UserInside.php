@@ -23,15 +23,18 @@ class UserInside extends Controller
      * @return Response
      */
 
-    public function show($id)
+    public function show($login)
     {
         if (Auth::check())
         {
             //$id = Auth::id();
-            $currentuser = User::find($id);
+            $currentuser = User::find($login);
+            if(is_null($currentuser)){
+                abort(404);
+            }
             $deposit = $currentuser->deposit;
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
-            $referrals = explode
+            //$referrals = explode
 
             return view('lc', ['user' => $currentuser, 'level' => $level[0]]);
         }
