@@ -21,7 +21,7 @@ function openWindow(name){
 
   $('.windows-all').css('margin-top','-'+(windows+50)+'px');
 
-  $('.window-all').addClass('windows-all_open');
+  $('.windows-all').addClass('windows-all_open');
   $('.windows-overlay').addClass('windows-overlay_open');
   $('.windows').addClass('windows_open');
 
