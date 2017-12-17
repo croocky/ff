@@ -2,6 +2,15 @@
 	display: none;
 
   @media screen and (max-width: $media-desktop) {
+		position: absolute;
+		right: 0;
+		top: 0;
+		box-sizing: border-box;
+		width: 75px;
+		height: 75px;
+		background: #252d38;
+		padding: 25px;
+		cursor: pointer;
     display: block;
   }
 }

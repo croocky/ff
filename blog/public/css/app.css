@@ -5053,6 +5053,16 @@ p.codrops-demos a.current-demo:hover{
 
 @media screen and (max-width: 1000px) {
   .header__burger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    background: #252d38;
+    padding: 25px;
+    cursor: pointer;
     display: block;
   }
 }
