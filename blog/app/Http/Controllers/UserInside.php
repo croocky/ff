@@ -10,6 +10,8 @@ namespace App\Http\Controllers;
 
 use App\User;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+
 
 class UserInside extends Controller
 {
@@ -19,8 +21,16 @@ class UserInside extends Controller
      * @param  int  $id
      * @return Response
      */
+
     public function show($id)
     {
-        return view('lc', ['user' => User::findOrFail($id)]);
+        if (Auth::check())
+        {
+            return view('lc', ['user' => User::findOrFail($id)]);
+        }
+        else{
+            return view('intro', ['user' => User::findOrFail($id)]);
+        }
+
     }
 }
