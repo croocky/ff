@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Levels extends Model
 {
-    public static function getAllData(){
-        $data = Levels::all();
-        return $data;
+    public  function getLevel($amount){
+        $level = Levels::where('pers_amount','<',$amount)->orderBy('pers_amount', 'desc')->take(1)->get()->toArray();
+        return $level;
     }
 }
