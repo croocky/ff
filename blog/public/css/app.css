@@ -3890,7 +3890,6 @@ a {
 }
 
 .nav__item {
-	background: red;
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 75px;
@@ -5008,7 +5007,7 @@ p.codrops-demos a.current-demo:hover{
 }
 @media screen and (max-width 980px){
   .nav {
-    display: none;
+    display: none !important;
   }
 }
 
