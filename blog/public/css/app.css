@@ -5071,3 +5071,7 @@ p.codrops-demos a.current-demo:hover{
     display: none !important;
   }
 }
+
+.wi-nav__item {
+  text-align: center;
+}
