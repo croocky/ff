@@ -29,7 +29,7 @@ class UserInside extends Controller
         {
             $id = Auth::id();
             $currentuser = User::find($id);
-            $levels = Levels::all();
+            $levels = Levels::all()->toArray();
             var_dump($levels);
 
 
