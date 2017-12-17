@@ -35,3 +35,7 @@
 .windows_open {
   display: block;
 }
+
+.windows__item {
+  display: none;
+}
