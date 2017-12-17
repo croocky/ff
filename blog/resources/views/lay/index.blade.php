@@ -34,7 +34,7 @@
   <div class="content windows-all">
 
     <header class="header">
-    <a href="#" class="header__logo-w">
+    <a href="/" class="header__logo-w">
     <img src="{{ asset('imgsvg/logo.svg') }}" class="header__logo" alt="Logo">
     </a>
 
@@ -53,8 +53,10 @@
     <img onclick="windows.openWindow('.wi-nav')" class="header__burger" src="{{ asset('imgsvg/burger.svg') }}" alt="Nav">
 
     </header>
+          <div class="content__inner">
 
   @yield('content')
+</div>
 
   <div class="login rightsidebar">
     <div class="login__heading-nav">
