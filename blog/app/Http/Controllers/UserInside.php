@@ -28,11 +28,11 @@ class UserInside extends Controller
         if (Auth::check())
         {
             $id = Auth::id();
-            $data =Levels::getAllData();
-            echo $data;
             $currentuser = User::find($id);
             $deposit = $currentuser->deposit;
-            $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get()->toArray();
+            $level =Levels->getLevel($deposit);
+             var_dump($level);
+            //$level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get()->toArray();
 
 
 
