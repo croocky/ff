@@ -32,7 +32,9 @@ class UserInside extends Controller
             $currentuser = User::find($id);
             $deposit = $currentuser->deposit;
             foreach ($data as $string){
-                echo $string;
+                if($deposit >= $string->pers_amount){
+                    $level = $string['id'];
+                };
             }
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get()->toArray();
 
