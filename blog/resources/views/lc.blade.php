@@ -14,7 +14,7 @@
 
                   <div class="level-bar">
                     <div class="level-bar__ready"></div>
-                    <div class="level-bar__t">$27000/$40000</div>
+                    <div class="level-bar__t">${{ $user->deposit }}/$40000</div>
                   </div>
 
                   <div class="profile-level__alreadygot">
