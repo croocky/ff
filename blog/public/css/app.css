@@ -3832,8 +3832,6 @@ html {
 
 .content {
 	height: 100%;
-	-webkit-transition: all .3s;
-	transition: all .3s;
 	    z-index: 1;
     position: relative;
 }
