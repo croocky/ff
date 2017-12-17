@@ -8,7 +8,7 @@
                 <div class="profile-level">
                   <div class="profile-level__heading">
                     <img class="profile-level__heading-i" src="/imgsvg/medal.svg" alt="Medal">
-                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login}}</span></div>
+                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user['login']}}</span></div>
                     <div class="profile-level__heading-level">Уровень <span class="profile-level__heading-level-data">3</span></div>
                   </div>
 

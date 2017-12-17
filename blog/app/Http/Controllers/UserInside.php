@@ -28,7 +28,7 @@ class UserInside extends Controller
         {
             $id = Auth::id();
             $result = DB::table('users')->where('id', $id)->get(); ;
-            var_dump($result);
+            $result = $result->toArray();
             return view('lc', ['user' => $result]);
         }
         else{
