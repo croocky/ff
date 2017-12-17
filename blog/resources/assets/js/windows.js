@@ -19,7 +19,7 @@ function openWindow(name){
 
   windows = $(window).scrollTop();
 
-  $('.windows-all').css('margin-top','-'+(windows+50)+'px');
+  $('.windows-all').css('margin-top','-'+windows+'px');
 
   $('.windows-all').addClass('windows-all_open');
   $('.windows-overlay').addClass('windows-overlay_open');
