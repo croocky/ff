@@ -64,4 +64,4 @@ $(document).ready(function(){
 
 });
 
-export {openWindow,closeWindows,scrollTopHeight};
+export {openWindow,closeWindows};
