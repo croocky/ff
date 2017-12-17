@@ -30,12 +30,11 @@ class UserInside extends Controller
             $id = Auth::id();
             $currentuser = User::find($id);
             $deposit = $currentuser->deposit;
-            $levels = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
-
-            echo $levels;
+            $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
 
 
-            return view('lc', ['user' => $currentuser]);
+
+            return view('lc', ['user' => $currentuser, 'level' => $level]);
         }
         else{
             return view('auth/login', ['user' => User::findOrFail($id)]);
