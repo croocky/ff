@@ -29,7 +29,7 @@ class UserInside extends Controller
             return view('lc', ['user' => User::findOrFail($id)]);
         }
         else{
-            return view('intro', ['user' => User::findOrFail($id)]);
+            return view('auth/login', ['user' => User::findOrFail($id)]);
         }
 
     }
