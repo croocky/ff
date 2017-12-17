@@ -67,6 +67,7 @@ a {
 }
 
 .nav__item {
+	background: red;
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 75px;
