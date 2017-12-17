@@ -22,7 +22,7 @@
       <div id='stars3'></div>
     </div>
 
-
+    <a href="/login" class="button-registration">Registation</a>
 
     <div class="sector bg_black">
       <div class="heading text_white">ADVANTAGES</div>
