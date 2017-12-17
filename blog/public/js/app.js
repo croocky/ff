@@ -153,7 +153,7 @@ function openWindow(name) {
 
   scrollTopHeight = $(window).scrollTop();
 
-  $('.windows-all').css('margin-top', '-' + windows + 'px');
+  $('.windows-all').css('margin-top', '-' + scrollTopHeight + 'px');
 
   $('.windows-all').addClass('windows-all_open');
   $('.windows-overlay').addClass('windows-overlay_open');
