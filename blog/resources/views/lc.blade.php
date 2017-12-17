@@ -82,12 +82,12 @@
                   <div class="structure__heading">
                     <div class="structure__item">
                       <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                      <div class="structure__item-name">vladislavn</div>
-                      <div class="structure__item-contrubution">1400$</div>
+                      <div class="structure__item-name">{{ $user->login }}</div>
+                      <div class="structure__item-contrubution">{{ $user->deposit }}</div>
                     </div>
                   </div>
 
-                  <div class="structure__level-heading">Рефералы уровня 1</div>
+                  <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
                     <div class="three columns">
                       <div class="structure__item">
