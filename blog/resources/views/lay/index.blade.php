@@ -95,6 +95,16 @@
 
 
 </div>
+<div class="windows">
+  <div class="wi-nav windows__item">
+    <a href="#" class="nav__item nav__item_active">Добрый вечер</a>
+    <a href="#" class="nav__item nav__item_active">Возможности</a>
+    <a href="#" class="nav__item nav__item_active">Инвесторам</a>
+    <a href="#" class="nav__item nav__item_active">FAQ</a>
+    <a href="#" class="nav__item nav__item_active">О нас</a>
+    <a href="/login" class="nav__item nav__item_right nav__item_active"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
+  </div>
+</div>
 <script src="{!! asset('js/app.js') !!}"></script>
 </body>
 </html>

@@ -100,6 +100,8 @@ global.$ = global.jQuery = __webpack_require__(15);
 
 global.windows = __webpack_require__(13);
 
+__webpack_require__(23);
+
 __webpack_require__(22);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
@@ -130,9 +132,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var scrollTopHeight = 0;
 $(document).ready(function () {
 
-  //$('body').children().wrapAll('<div class="windows-all">')
-  $('body').append('<div class="windows"></div>');
-  $('body').append('<div class="windows-overlay"></div>');
+  if ($('*').is('.windows-all">') === false) {
+    $('body').children().wrapAll('<div class="windows-all">');
+  }
+
+  if ($('*').is('.windows') === false) {
+    $('body').append('<div class="windows"></div>');
+  }
+
+  if ($('*').is('.windows-overlay') === false) {
+    $('body').append('<div class="windows-overlay"></div>');
+  }
 
   $('.windows-overlay').click(function () {
     closeWindows();
@@ -20927,6 +20937,29 @@ $(function () {
 
     reset.call(marquee.find("div"));
 });
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var windows = __webpack_require__(13);
+
+/*
+$(document).ready(function(){
+  $('.windows').append(`<div class="windows__item wi-nav">
+  </div>`);
+
+  let navitems = '';
+
+  $('.nav__item').each(function(){
+     let item = $(this).text();
+     navitems += '<div class="wi-nav">'+item+'</div>';
+  });
+
+  $('.wi-nav').append(navitems);
+});
+
+*/
 
 /***/ })
 /******/ ]);
