@@ -11,7 +11,7 @@ namespace App\Http\Controllers;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
+
 
 class UserInside extends Controller
 {
@@ -27,13 +27,11 @@ class UserInside extends Controller
         if (Auth::check())
         {
             $id = Auth::id();
-            $result = DB::table('users')->where('id', $id)->get();
-            $result= $result->toArray();
-            $result = $result[0];
-            $refferals = explode(',',$result->structure);
-            var_dump( $refferals);
+            $currentuser = User::find($id);
 
-            return view('lc', ['user' => $result]);
+
+
+            return view('lc', ['user' => $currentuser]);
         }
         else{
             return view('auth/login', ['user' => User::findOrFail($id)]);
