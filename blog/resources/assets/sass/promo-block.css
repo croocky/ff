@@ -7,6 +7,8 @@
 .promo-block__heading {
   text-align: center;
   padding: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
   border-bottom: 3px solid #D6E1EC;
 }
 
