@@ -5020,7 +5020,6 @@ p.codrops-demos a.current-demo:hover{
   z-index:1;
   margin-top: 0;
   width: 100%;
-  overflow-y:hidden;
   position: static;
 }
 
