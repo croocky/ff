@@ -29,7 +29,7 @@ class UserInside extends Controller
             $id = Auth::id();
             $result = DB::table('users')->where('id', $id)->get(); ;
             var_dump($result);
-            return view('lc', ['user' => User::findOrFail($id)]);
+            return view('lc', ['user' => $result]);
         }
         else{
             return view('auth/login', ['user' => User::findOrFail($id)]);
