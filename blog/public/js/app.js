@@ -144,7 +144,7 @@ function openWindow(name) {
     return false;
   }
 
-  windows = $(window).scrollTop();
+  scrollTopHeight = $(window).scrollTop();
 
   $('.windows-all').css('margin-top', '-' + windows + 'px');
 
@@ -165,7 +165,7 @@ function closeWindows() {
   $('.windows-overlay').removeClass('windows-overlay_open');
   $('.windows').removeClass('windows_open');
 
-  windows = $(window).scrollTop(windows);
+  $(window).scrollTop(scrollTopHeight);
 };
 
 /* REG*/
