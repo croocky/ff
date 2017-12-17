@@ -30,7 +30,7 @@ class UserInside extends Controller
             $id = Auth::id();
             $currentuser = User::find($id);
             $deposit = $currentuser->deposit;
-            $level =Levels->getLevel($deposit);
+            $level =Levels::getLevel($deposit);
              var_dump($level);
             //$level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get()->toArray();
 
