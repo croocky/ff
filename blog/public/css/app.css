@@ -5005,4 +5005,9 @@ p.codrops-demos a.current-demo:hover{
   text-transform: uppercase;
   height: 100%;
 }
+@media screen and (max-width 980px){
+  .nav {
+    display: none;
+  }
+}
 
