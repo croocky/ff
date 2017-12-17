@@ -1,4 +1,4 @@
-$(function() {
+
 
 var windows = 0;
 $(document).ready(function(){
@@ -66,6 +66,6 @@ $(document).ready(function(){
 
 });
 
-return openWindow;
 
-});
+
+export {openWindow};

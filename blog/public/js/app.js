@@ -134,55 +134,58 @@ global.windows = __webpack_require__(13);
 /* 11 */,
 /* 12 */,
 /* 13 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-$(function () {
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "openWindow", function() { return openWindow; });
 
-  var windows = 0;
-  $(document).ready(function () {
 
-    $('body').children().wrapAll('<div class="windows-all">');
-    $('body').append('<div class="windows"></div>');
-    $('body').append('<div class="windows-overlay"></div>');
+var windows = 0;
+$(document).ready(function () {
 
-    $('.windows-overlay').click(function () {
-      closeWindows();
-    });
+  $('body').children().wrapAll('<div class="windows-all">');
+  $('body').append('<div class="windows"></div>');
+  $('body').append('<div class="windows-overlay"></div>');
+
+  $('.windows-overlay').click(function () {
+    closeWindows();
   });
+});
 
-  function openWindow(name) {
-    if ($('.windows-all').hasClass('hide')) {
-      return false;
-    }
+function openWindow(name) {
+  if ($('.windows-all').hasClass('hide')) {
+    return false;
+  }
 
-    windows = $(window).scrollTop();
+  windows = $(window).scrollTop();
 
-    $('.windows-all').css('margin-top', '-' + (windows + 50) + 'px');
+  $('.windows-all').css('margin-top', '-' + (windows + 50) + 'px');
 
-    $('.window-all').addClass('windows-all_open');
-    $('.windows-overlay').addClass('windows-overlay_open');
-    $('.windows').addClass('windows_open');
+  $('.window-all').addClass('windows-all_open');
+  $('.windows-overlay').addClass('windows-overlay_open');
+  $('.windows').addClass('windows_open');
 
-    $(name).show();
-  };
+  $(name).show();
+};
 
-  function closeWindows() {
-    $('windows-item').hide();
-    $(window).scrollTop(windows);
+function closeWindows() {
+  $('windows-item').hide();
+  $(window).scrollTop(windows);
 
-    $('.windows-all').attr('style', '');
+  $('.windows-all').attr('style', '');
 
-    $('.window-all').removeClass('windows-all_open');
-    $('.windows-overlay').removeClass('windows-overlay_open');
-    $('.windows').removeClass('windows_open');
+  $('.window-all').removeClass('windows-all_open');
+  $('.windows-overlay').removeClass('windows-overlay_open');
+  $('.windows').removeClass('windows_open');
 
-    windows = $(window).scrollTop(windows);
-  };
+  windows = $(window).scrollTop(windows);
+};
 
-  /* REG*/
+/* REG*/
 
-  $(document).ready(function () {
-    $('.windows').append('<div class="windows__item wi-reg">\
+$(document).ready(function () {
+  $('.windows').append('<div class="windows__item wi-reg">\
     <div class="windows__item-heading">Registration</div>\
     <div class="windows__item-body">\
     <form method="POST" action="cgi/auth.php" class="form" action="">\
@@ -198,10 +201,9 @@ $(function () {
     </form>\
     </div>\
   </div>');
-  });
-
-  return openWindow;
 });
+
+
 
 /***/ }),
 /* 14 */
