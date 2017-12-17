@@ -1,3 +1,7 @@
+.cb-slideshow {
+  bg: #000;
+}
+
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
