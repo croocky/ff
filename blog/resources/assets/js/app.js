@@ -27,6 +27,8 @@ global.$ = global.jQuery = require('jquery');
 
 global.windows = require('./windows');
 
+require('./nav');
+
 
 
 require('./my');
