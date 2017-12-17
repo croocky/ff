@@ -50,7 +50,7 @@
     <a href="#" class="header__lang">
 
     </a>
-    <img class="burger-nav" src="{{ asset('imgsvg/burger.svg') }}" alt="Nav">
+    <img class="header__burger" src="{{ asset('imgsvg/burger.svg') }}" alt="Nav">
 
     </header>
 

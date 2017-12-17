@@ -5047,12 +5047,6 @@ p.codrops-demos a.current-demo:hover{
 .windows__item {
   display: none;
 }
-@media screen and (max-width: 980px){
-  .nav {
-    display: none !important;
-  }
-
-}
 .header__burger {
   display: none;
 }
