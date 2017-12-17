@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = 'home', ['login' => Auth::login()];
 
     /**
      * Create a new controller instance.
