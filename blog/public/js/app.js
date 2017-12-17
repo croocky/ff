@@ -127,7 +127,8 @@ __webpack_require__(22);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "openWindow", function() { return openWindow; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "closeWindows", function() { return closeWindows; });
-var windows = 0;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "scrollTopHeight", function() { return scrollTopHeight; });
+var scrollTopHeight = 0;
 $(document).ready(function () {
 
   //$('body').children().wrapAll('<div class="windows-all">')

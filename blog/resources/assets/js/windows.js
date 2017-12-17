@@ -1,4 +1,4 @@
-var windows = 0;
+var scrollTopHeight = 0;
 $(document).ready(function(){
 
   //$('body').children().wrapAll('<div class="windows-all">')
@@ -64,4 +64,4 @@ $(document).ready(function(){
 
 });
 
-export {openWindow,closeWindows};
+export {openWindow,closeWindows,scrollTopHeight};
