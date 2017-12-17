@@ -23,12 +23,12 @@ class UserInside extends Controller
      * @return Response
      */
 
-    public function show($id)
+    public function show($login)
     {
         if (Auth::check())
         {
             //$id = Auth::id();
-            $currentuser = User::find($id);
+            $currentuser = User::find($login);
             if(is_null($currentuser)){
                 abort(404);
             }
