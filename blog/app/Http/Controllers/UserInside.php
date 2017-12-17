@@ -11,7 +11,7 @@ namespace App\Http\Controllers;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-
+use Illuminate\Support\Facades\DB;
 
 class UserInside extends Controller
 {
@@ -26,8 +26,9 @@ class UserInside extends Controller
     {
         if (Auth::check())
         {
-            $user = Auth::name();
-            var_dump($user);
+            $id = Auth::id();
+            $result = DB::table('users')->where('id', $id) ;
+            var_dump($result);
             return view('lc', ['user' => User::findOrFail($id)]);
         }
         else{
