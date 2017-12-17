@@ -132,7 +132,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var scrollTopHeight = 0;
 $(document).ready(function () {
 
-  if ($('*').is('.windows-all">') === false) {
+  if ($('*').is('.windows-all') === false) {
     $('body').children().wrapAll('<div class="windows-all">');
   }
 
