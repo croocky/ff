@@ -174,7 +174,7 @@ function closeWindows() {
 
   $('.windows-all').attr('style', '');
 
-  $('.window-all').removeClass('windows-all_open');
+  $('.windows-all').removeClass('windows-all_open');
   $('.windows-overlay').removeClass('windows-overlay_open');
   $('.windows').removeClass('windows_open');
 
