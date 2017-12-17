@@ -32,9 +32,9 @@ class UserInside extends Controller
             $deposit = $currentuser->deposit;
             $levels = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
 
-            var_dump($levels);
+            echo $levels;
 
-      
+
             return view('lc', ['user' => $currentuser]);
         }
         else{
