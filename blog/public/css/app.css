@@ -3864,6 +3864,7 @@ a {
 	width: 100%;
 }
 
+
 .content_guest {
 	width: 100%;
 	/*padding-right: 300px;*/
@@ -5050,5 +5051,20 @@ p.codrops-demos a.current-demo:hover{
   .nav {
     display: none !important;
   }
+
+}
+.header__burger {
+  display: none;
 }
 
+@media screen and (max-width: 1000px) {
+  .header__burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    display: none !important;
+  }
+}
