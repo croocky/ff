@@ -29,9 +29,12 @@ class UserInside extends Controller
         {
             $id = Auth::id();
             $currentuser = User::find($id);
-            $levels = Levels::all();
+            $levels = Levels::all()->toArray();
             var_dump($levels);
-
+            $deposit = $currentuser->deposit;
+            foreach($levels as $level){
+            echo $level['total_amount'];
+        }
 
             return view('lc', ['user' => $currentuser]);
         }
