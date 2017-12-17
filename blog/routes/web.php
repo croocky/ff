@@ -22,3 +22,4 @@ Route::get('/lc', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('user/{id}', 'UserInside@show');
