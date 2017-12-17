@@ -27,7 +27,7 @@ class UserInside extends Controller
     {
 
         $user = Auth::user();
-        echo $user;
+        echo $user->login;
         if (Auth::check())
         {
             //$id = Auth::id();
