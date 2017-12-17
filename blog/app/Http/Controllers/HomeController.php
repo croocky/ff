@@ -23,6 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-       return  redirect()->route('home', ['login' => Auth::login()]);
+       return  redirect()->route('user', ['login' => Auth::login()]);
     }
 }
