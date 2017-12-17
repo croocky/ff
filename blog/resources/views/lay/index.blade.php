@@ -44,7 +44,7 @@
     <a href="#" class="nav__item nav__item_active">Инвесторам</a>
     <a href="#" class="nav__item nav__item_active">FAQ</a>
     <a href="#" class="nav__item nav__item_active">О нас</a>
-    <a class="nav__item nav__item_right nav__item_active" onclick="openlogin()"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
+    <a href="/login" class="nav__item nav__item_right nav__item_active"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
     </nav>
 
     <a href="#" class="header__lang">
