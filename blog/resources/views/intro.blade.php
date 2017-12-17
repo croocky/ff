@@ -23,7 +23,7 @@
       <div id='stars3'></div>
     </div>
 
-    <!--
+
     <div class="sector bg_hot">
       <div class="heading">SWIFTY — ВЫСОКОТЕХНОЛОГИЧНЫЙ ПОДХОД К ИНВЕСТИЦИЯМ</div>
       <img src="imgsvg/heading.svg" class="img_full-page" alt="heading">
@@ -33,7 +33,7 @@
       <canvas id="demo-canvas"></canvas>
       </div>
     </div>
-  -->
+
     <div class="sector bg_black">
       <div class="heading text_white">ADVANTAGES</div>
       <div class="row text-center">
