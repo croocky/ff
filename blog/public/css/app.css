@@ -5047,6 +5047,8 @@ p.codrops-demos a.current-demo:hover{
 
 .wi__close {
  height: 75px;
+     cursor: pointer;
+         background: #1c222a;
 }
 
 .wi__close-img {
