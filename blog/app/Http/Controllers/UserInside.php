@@ -11,7 +11,7 @@ namespace App\Http\Controllers;
 use App\User;
 use App\Http\Controllers\Controller;
 
-class UserController extends Controller
+class UserInside extends Controller
 {
     /**
      * Показать профиль данного пользователя.
