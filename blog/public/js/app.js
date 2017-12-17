@@ -98,8 +98,6 @@ var app = new Vue({
 
 global.$ = global.jQuery = __webpack_require__(15);
 
-global.$ = global.jQuery = __webpack_require__(15);
-
 __webpack_require__(16);
 
 global.windows = __webpack_require__(13);
