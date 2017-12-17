@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
-  <div class="content">
+  <div class="content windows-all">
 
     <header class="header">
     <a href="#" class="header__logo-w">

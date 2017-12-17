@@ -29,4 +29,4 @@ global.windows = require('./windows');
 
 
 
-require('./design');
+require('./my');

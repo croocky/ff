@@ -1,7 +1,7 @@
-var windows = 0;
+var scrollTopHeight = 0;
 $(document).ready(function(){
 
-  $('body').children().wrapAll('<div class="windows-all">')
+  //$('body').children().wrapAll('<div class="windows-all">')
   $('body').append('<div class="windows"></div>');
   $('body').append('<div class="windows-overlay"></div>');
 
@@ -17,9 +17,9 @@ function openWindow(name){
   }
 
 
-  windows = $(window).scrollTop();
+  scrollTopHeight = $(window).scrollTop();
 
-  $('.windows-all').css('margin-top','-'+(windows+50)+'px');
+  $('.windows-all').css('margin-top','-'+windows+'px');
 
   $('.windows-all').addClass('windows-all_open');
   $('.windows-overlay').addClass('windows-overlay_open');
@@ -39,7 +39,7 @@ function closeWindows(){
   $('.windows-overlay').removeClass('windows-overlay_open');
   $('.windows').removeClass('windows_open');
 
-  windows = $(window).scrollTop(windows);
+   $(window).scrollTop(scrollTopHeight);
 };
 
 /* REG*/
