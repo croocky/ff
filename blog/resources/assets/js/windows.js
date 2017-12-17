@@ -68,4 +68,4 @@ $(document).ready(function(){
 
 
 
-export {openWindow};
+export {openWindow,closeWindows};
