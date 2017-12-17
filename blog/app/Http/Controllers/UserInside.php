@@ -30,7 +30,6 @@ class UserInside extends Controller
             $result = DB::table('users')->where('id', $id)->get();
             $result= $result->toArray();
             $result = $result[0];
-            $result= $result->toArray();
            
             return view('lc', ['user' => $result]);
         }
