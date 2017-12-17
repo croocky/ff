@@ -50,6 +50,7 @@
     <a href="#" class="header__lang">
 
     </a>
+    <img onclick="windows.openWindow('.wi-nav')" class="header__burger" src="{{ asset('imgsvg/burger.svg') }}" alt="Nav">
 
     </header>
 

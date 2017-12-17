@@ -3864,6 +3864,7 @@ a {
 	width: 100%;
 }
 
+
 .content_guest {
 	width: 100%;
 	/*padding-right: 300px;*/
@@ -5046,9 +5047,28 @@ p.codrops-demos a.current-demo:hover{
 .windows__item {
   display: none;
 }
-@media screen and (max-width: 980px){
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__burger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    background: #252d38;
+    padding: 25px;
+    cursor: pointer;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .nav {
     display: none !important;
   }
 }
-
