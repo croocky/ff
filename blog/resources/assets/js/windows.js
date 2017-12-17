@@ -1,5 +1,3 @@
-
-
 var windows = 0;
 $(document).ready(function(){
 
@@ -65,7 +63,5 @@ $(document).ready(function(){
   </div>');
 
 });
-
-
 
 export {openWindow,closeWindows};

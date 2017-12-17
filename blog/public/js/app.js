@@ -140,8 +140,6 @@ global.windows = __webpack_require__(13);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "openWindow", function() { return openWindow; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "closeWindows", function() { return closeWindows; });
-
-
 var windows = 0;
 $(document).ready(function () {
 
