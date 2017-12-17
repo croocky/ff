@@ -4821,7 +4821,7 @@ p.codrops-demos a.current-demo:hover{
       z-index: 9999;
 }
 .cb-slideshow {
-  bg: #000;
+  background: #000;
 }
 
 .cb-slideshow,
