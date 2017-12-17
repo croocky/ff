@@ -5046,10 +5046,14 @@ p.codrops-demos a.current-demo:hover{
 }
 
 .wi__close {
-	margin: 0 auto;
-	display: block;
-	width: 41px;
-	padding: 15px;
+ height: 75px;
+}
+
+.wi__close-img {
+  margin: 0 auto;
+  display: block;
+  width: 41px;
+  padding: 15px;
 }
 .header__burger {
   display: none;

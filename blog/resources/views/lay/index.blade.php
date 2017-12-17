@@ -97,7 +97,7 @@
 </div>
 <div class="windows">
   <div class="wi-nav windows__item">
-    <div class="wi__close"><img src="{{ asset('/imgsvg/close.svg') }}" alt="Close"></div>
+    <div class="wi__close"><img class="wi__close-img" src="{{ asset('/imgsvg/close.svg') }}" alt="Close"></div>
     <a href="#" class="wi-nav__item">Добрый вечер</a>
     <a href="#" class="wi-nav__item">Возможности</a>
     <a href="#" class="wi-nav__item">Инвесторам</a>
