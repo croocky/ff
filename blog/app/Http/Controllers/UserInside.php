@@ -27,7 +27,8 @@ class UserInside extends Controller
         if (Auth::check())
         {
             $id = Auth::id();
-            $result = DB::table('users')->where('id', $id)->get(); ;
+            $result = DB::table('users')->where('id', $id)->get();
+            $result= $result->toArray();
             $result = $result[0];
             $result= $result->toArray();
            
