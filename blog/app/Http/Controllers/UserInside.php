@@ -29,13 +29,12 @@ class UserInside extends Controller
         {
             $id = Auth::id();
             $currentuser = User::find($id);
-            $levels = Levels::all()->toArray();
-            var_dump($levels);
             $deposit = $currentuser->deposit;
-            foreach($levels as $level){
-            echo $level['total_amount'];
-        }
+            $levels = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
 
+            var_dump($levels);
+
+      
             return view('lc', ['user' => $currentuser]);
         }
         else{
