@@ -33,7 +33,7 @@ class UserInside extends Controller
             var_dump($levels);
             $deposit = $currentuser->deposit;
             foreach($levels as $level){
-            echo $level->total_amount;
+            echo $level['total_amount'];
         }
 
             return view('lc', ['user' => $currentuser]);
