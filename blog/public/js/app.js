@@ -113,7 +113,7 @@ require('./design');
 
 global.$ = global.jQuery = __webpack_require__(15);
 
-__webpack_require__(13);
+global.windows = __webpack_require__(13);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
