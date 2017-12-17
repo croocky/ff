@@ -102,7 +102,7 @@
     <a href="#" class="wi-nav__item">Инвесторам</a>
     <a href="#" class="wi-nav__item">FAQ</a>
     <a href="#" class="wi-nav__item">О нас</a>
-    <a href="/login" class="wi-nav__item"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
+    <a href="/login" class="wi-nav__item"><img class="wi-nav__item-img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
   </div>
 </div>
 <script src="{!! asset('js/app.js') !!}"></script>

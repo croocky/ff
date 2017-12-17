@@ -23,5 +23,16 @@
 
 
 .wi-nav__item {
+	display: block;
 	text-align: center;
+	color: #b7b7b7;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.wi-nav__item-img{
+	display: inline;
+width: 30px;
+margin-right: 10px;
+margin-bottom: -8px;
 }
