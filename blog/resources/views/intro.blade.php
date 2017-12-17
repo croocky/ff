@@ -147,12 +147,68 @@
             </div>
           </div>
           <div class="four columns">
-            <div class="subheading-small">1. Question</div>
-            <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
+            <div class="promo-block">
+              <div class="promo-block__heading">
+                PROMO
+              </div>
+              <div class="promo-block__body">
+                <div class="promo-block__body-label">СУММА ИНВЕСТИЦИЙ</div>
+                <div class="promo-block__body-content">300$ - 5,999$</div>
+              </div>
+              <div class="promo-block__subheading">
+                Доходность
+              </div>
+              <div class="promo-block__footer">
+                <div class="promo-block__footer-item">
+                  <div class="promo-block__footer-item-content">
+                    40%
+                  </div>
+                  <div class="promo-block__footer-item-label">
+                    в год
+                  </div>
+                </div>
+                <div class="promo-block__footer-item">
+                  <div class="promo-block__footer-item-content">
+                    3.4%
+                  </div>
+                  <div class="promo-block__footer-item-label">
+                    в месяц
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="four columns">
-            <div class="subheading-small">1. Question</div>
-            <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
+            <div class="promo-block">
+              <div class="promo-block__heading">
+                PROMO
+              </div>
+              <div class="promo-block__body">
+                <div class="promo-block__body-label">СУММА ИНВЕСТИЦИЙ</div>
+                <div class="promo-block__body-content">300$ - 5,999$</div>
+              </div>
+              <div class="promo-block__subheading">
+                Доходность
+              </div>
+              <div class="promo-block__footer">
+                <div class="promo-block__footer-item">
+                  <div class="promo-block__footer-item-content">
+                    40%
+                  </div>
+                  <div class="promo-block__footer-item-label">
+                    в год
+                  </div>
+                </div>
+                <div class="promo-block__footer-item">
+                  <div class="promo-block__footer-item-content">
+                    3.4%
+                  </div>
+                  <div class="promo-block__footer-item-label">
+                    в месяц
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
