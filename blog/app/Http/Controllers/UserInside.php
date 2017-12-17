@@ -26,6 +26,8 @@ class UserInside extends Controller
     {
         if (Auth::check())
         {
+            $user = Auth::user();
+            var_dump($user);
             return view('lc', ['user' => User::findOrFail($id)]);
         }
         else{
