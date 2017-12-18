@@ -28,19 +28,20 @@
       <div class="heading text_white">ADVANTAGES</div>
       <div class="row text-center">
         <div class="four columns">
-          <div class="subheading"> НЕВЕРОЯТНЫИ РОСТ</div>
+          <div class="subheading"> Growth dynamics</div>
           <img src="{{ asset('imgsvg/i-increase.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">Stable and steady growth of the crypto currencies rate</div>
         </div>
         <div class="four columns">
-          <div class="subheading"> ЗАМОК WI-FI</div>
+          <div class="subheading"> Security</div>
           <img src="{{ asset('imgsvg/i-secure.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">Cryptocurrencies are digital assets that use cryptography, an encryption technique, for security. </div>
         </div>
         <div class="four columns">
-          <div class="subheading">ПЛАНЕТА ЗЕМЛЯ</div>
+          <div class="subheading">Everywhere</div>
           <img src="{{ asset('imgsvg/i-world.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">
+            You can use the currency anywhere in the worldе</div>
         </div>
       </div>
 
@@ -49,25 +50,25 @@
 
 
     <div class="sector">
-        <div class="heading">FOR TRAIDERS</div>
+        <div class="heading">geography of the company</div>
         <img src="{{ asset('imgsvg/world.svg') }}" class="img_full-page" alt="heading">
         <br>
         <div class="row text-center">
           <div class="three columns">
             <img src="{{ asset('imgsvg/germany.svg') }}" alt="Germany" class="i-flag">
-            <div class="subheading subheading_thin">Германия</div>
+            <div class="subheading subheading_thin">Germany</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/belgium.svg') }}" alt="Belgium" class="i-flag">
-            <div class="subheading subheading_thin">Бельгия</div>
+            <div class="subheading subheading_thin">Belgium</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/czech-republic.svg') }}" alt="Belgium" class="i-flag">
-            <div class="subheading subheading_thin">Чехия</div>
+            <div class="subheading subheading_thin">Czech Republic</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/denmark.svg') }}" alt="Denmark" class="i-flag">
-            <div class="subheading subheading_thin">Дания</div>
+            <div class="subheading subheading_thin">Denmark</div>
           </div>
         </div>
     </div>
