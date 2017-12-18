@@ -28,19 +28,20 @@
       <div class="heading text_white">ADVANTAGES</div>
       <div class="row text-center">
         <div class="four columns">
-          <div class="subheading"> НЕВЕРОЯТНЫИ РОСТ</div>
+          <div class="subheading"> Growth dynamics</div>
           <img src="{{ asset('imgsvg/i-increase.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">Stable and steady growth of the crypto currencies rate</div>
         </div>
         <div class="four columns">
-          <div class="subheading"> ЗАМОК WI-FI</div>
+          <div class="subheading"> Security</div>
           <img src="{{ asset('imgsvg/i-secure.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">Cryptocurrencies are digital assets that use cryptography, an encryption technique, for security. </div>
         </div>
         <div class="four columns">
-          <div class="subheading">ПЛАНЕТА ЗЕМЛЯ</div>
+          <div class="subheading">Everywhere</div>
           <img src="{{ asset('imgsvg/i-world.svg') }}" alt="Increase" class="i-big">
-          <div class="text text_small-width">Тут быквы чисто для примера, ну думаю хватит, еще чутка, и еще</div>
+          <div class="text text_small-width">
+            You can use the currency anywhere in the worldе</div>
         </div>
       </div>
 
