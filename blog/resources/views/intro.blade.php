@@ -50,7 +50,7 @@
 
 
     <div class="sector">
-        <div class="heading">geography of the company</div>
+        <div  class="heading">Geography of the company</div>
         <img src="{{ asset('imgsvg/world.svg') }}" class="img_full-page" alt="heading">
         <br>
         <div class="row text-center">
