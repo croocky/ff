@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('user/{login}', 'UserInside@show')->name('home');
+Route::get('/user/{login}', 'UserInside@show')->name('home');
+Route::get('/logout', 'LoginController@logout');
