@@ -50,25 +50,25 @@
 
 
     <div class="sector">
-        <div class="heading">FOR TRAIDERS</div>
+        <div class="heading">geography of the company</div>
         <img src="{{ asset('imgsvg/world.svg') }}" class="img_full-page" alt="heading">
         <br>
         <div class="row text-center">
           <div class="three columns">
             <img src="{{ asset('imgsvg/germany.svg') }}" alt="Germany" class="i-flag">
-            <div class="subheading subheading_thin">Германия</div>
+            <div class="subheading subheading_thin">Germany</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/belgium.svg') }}" alt="Belgium" class="i-flag">
-            <div class="subheading subheading_thin">Бельгия</div>
+            <div class="subheading subheading_thin">Belgium</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/czech-republic.svg') }}" alt="Belgium" class="i-flag">
-            <div class="subheading subheading_thin">Чехия</div>
+            <div class="subheading subheading_thin">Czech Republic</div>
           </div>
           <div class="three columns">
             <img src="{{ asset('imgsvg/denmark.svg') }}" alt="Denmark" class="i-flag">
-            <div class="subheading subheading_thin">Дания</div>
+            <div class="subheading subheading_thin">Denmark</div>
           </div>
         </div>
     </div>
