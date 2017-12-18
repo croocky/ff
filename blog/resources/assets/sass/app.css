@@ -728,3 +728,7 @@ margin-right: 15px;
     text-transform: uppercase;
     display: inline-block;
 }
+
+.heading {
+	text-transform: uppercase;
+}
