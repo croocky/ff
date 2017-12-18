@@ -20,4 +20,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/user/{login}', 'UserInside@show')->name('home');
-Route::get('/logout', 'Auth/LoginController@logout');
+Route::get('/logout', 'Auth\LoginController@logout');
