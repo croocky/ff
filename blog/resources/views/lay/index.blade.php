@@ -39,12 +39,12 @@
     </a>
 
     <nav class="nav">
-    <a href="#" class="nav__item nav__item_active">Добрый вечер</a>
-    <a href="#" class="nav__item nav__item_active">Возможности</a>
-    <a href="#" class="nav__item nav__item_active">Инвесторам</a>
-    <a href="#" class="nav__item nav__item_active">FAQ</a>
-    <a href="#" class="nav__item nav__item_active">О нас</a>
-    <a href="/login" class="nav__item nav__item_right nav__item_active"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
+    <a href="#" class="nav__item nav__item_active">Welcome</a>
+    <a href="#" class="nav__item nav__item_active">Opportunities</a>
+    <a href="#" class="nav__item nav__item_active">For investors</a>
+    <a href="#" class="nav__item nav__item_active">White papers</a>
+    <a href="#" class="nav__item nav__item_active">About us</a>
+    <a href="/login" class="nav__item nav__item_right nav__item_active"><img class="nav__item__img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Log in</a>
     </nav>
 
     <a href="#" class="header__lang">
@@ -100,12 +100,12 @@
 <div class="windows">
   <div class="wi-nav windows__item">
     <div class="wi__close"><img class="wi__close-img" src="{{ asset('/imgsvg/close.svg') }}" alt="Close"></div>
-    <a href="#" class="wi-nav__item">Добрый вечер</a>
-    <a href="#" class="wi-nav__item">Возможности</a>
-    <a href="#" class="wi-nav__item">Инвесторам</a>
-    <a href="#" class="wi-nav__item">FAQ</a>
-    <a href="#" class="wi-nav__item">О нас</a>
-    <a href="/login" class="wi-nav__item"><img class="wi-nav__item-img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Личный кабинет</a>
+    <a href="#" class="wi-nav__item">Welcome</a>
+    <a href="#" class="wi-nav__item">Opportunities</a>
+    <a href="#" class="wi-nav__item">For investors</a>
+    <a href="#" class="wi-nav__item">White papers</a>
+    <a href="#" class="wi-nav__item">About us</a>
+    <a href="/login" class="wi-nav__item"><img class="wi-nav__item-img" src="{{ asset('imgsvg/login.svg') }}" alt="LC" >Log in</a>
   </div>
 </div>
 <script src="{!! asset('js/app.js') !!}"></script>

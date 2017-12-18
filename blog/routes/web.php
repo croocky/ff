@@ -19,4 +19,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('user/{login}', 'UserInside@show')->name('home');
+Route::get('/user/{login}', 'UserInside@show')->name('home');
+Route::get('/logout', function(){
+    Auth::logout();
+    Session::flush();
+    return Redirect::to('/');
+});
