@@ -732,3 +732,7 @@ margin-right: 15px;
 .heading {
 	text-transform: uppercase;
 }
+
+input[type='checkbox'] {
+	width: auto;
+}
