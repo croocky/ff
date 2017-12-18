@@ -3843,7 +3843,6 @@ html {
 
 
 .content__inner {
-	height: 100%;
 	padding-top: 75px;
 }
 
@@ -4560,6 +4559,14 @@ margin-right: 15px;
     display: inline-block;
 }
 
+.heading {
+	text-transform: uppercase;
+}
+
+input[type='checkbox'] {
+	width: auto;
+}
+
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
 	margin:0;
@@ -5197,4 +5204,8 @@ p.codrops-demos a.current-demo:hover{
   font-size: 2em;
   font-weight: 300;
   color: #b1bdcc;
+}
+
+.form-group {
+  margin: 15px 0;
 }

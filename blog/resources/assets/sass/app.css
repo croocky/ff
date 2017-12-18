@@ -21,7 +21,6 @@ html {
 
 
 .content__inner {
-	height: 100%;
 	padding-top: 75px;
 }
 
@@ -727,4 +726,12 @@ margin-right: 15px;
     padding: 20px 30px;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.heading {
+	text-transform: uppercase;
+}
+
+input[type='checkbox'] {
+	width: auto;
 }
