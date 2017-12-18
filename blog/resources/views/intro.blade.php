@@ -111,7 +111,7 @@
 
     </div>
 
-    <div class="sector">
+    <div class="sector promo-block__wrapper">
         <div class="heading">ПАКЕТЫ ИНВЕСТИЦИЙ</div>
         <div class="row">
           <div class="four columns">
