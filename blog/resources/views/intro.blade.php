@@ -113,7 +113,7 @@
     </div>
 
     <div class="sector promo-block__wrapper">
-        <div class="heading">ПАКЕТЫ ИНВЕСТИЦИЙ</div>
+        <div class="heading">Choose your investment plan</div>
         <div class="row">
           <div class="four columns">
             <div class="promo-block">
@@ -121,11 +121,12 @@
                 PROMO
               </div>
               <div class="promo-block__body">
-                <div class="promo-block__body-label">СУММА ИНВЕСТИЦИЙ</div>
+                <div class="promo-block__body-label">
+                  Amount of investment</div>
                 <div class="promo-block__body-content">300$ - 5,999$</div>
               </div>
               <div class="promo-block__subheading">
-                Доходность
+                ROI
               </div>
               <div class="promo-block__footer">
                 <div class="promo-block__footer-item">
@@ -133,7 +134,7 @@
                     40%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в год
+                    per annum
                   </div>
                 </div>
                 <div class="promo-block__footer-item">
@@ -141,7 +142,7 @@
                     3.4%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в месяц
+                    per month
                   </div>
                 </div>
               </div>
@@ -150,30 +151,30 @@
           <div class="four columns">
             <div class="promo-block">
               <div class="promo-block__heading">
-                PROMO
+                Trader
               </div>
               <div class="promo-block__body">
-                <div class="promo-block__body-label">СУММА ИНВЕСТИЦИЙ</div>
-                <div class="promo-block__body-content">300$ - 5,999$</div>
+                <div class="promo-block__body-label"> Amount of investment</div>
+                <div class="promo-block__body-content">6000$ - 17,999$</div>
               </div>
               <div class="promo-block__subheading">
-                Доходность
+                ROI
               </div>
               <div class="promo-block__footer">
                 <div class="promo-block__footer-item">
                   <div class="promo-block__footer-item-content">
-                    40%
+                    55%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в год
+                    per annum
                   </div>
                 </div>
                 <div class="promo-block__footer-item">
                   <div class="promo-block__footer-item-content">
-                    3.4%
+                    4.6%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в месяц
+                    per month
                   </div>
                 </div>
               </div>
@@ -182,30 +183,30 @@
           <div class="four columns">
             <div class="promo-block">
               <div class="promo-block__heading">
-                PROMO
+                Advanced
               </div>
               <div class="promo-block__body">
-                <div class="promo-block__body-label">СУММА ИНВЕСТИЦИЙ</div>
-                <div class="promo-block__body-content">300$ - 5,999$</div>
+                <div class="promo-block__body-label"> Amount of investment</div>
+                <div class="promo-block__body-content">6000$ - 17,999$</div>
               </div>
               <div class="promo-block__subheading">
-                Доходность
+                ROI
               </div>
               <div class="promo-block__footer">
                 <div class="promo-block__footer-item">
                   <div class="promo-block__footer-item-content">
-                    40%
+                   75%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в год
+                    per annum
                   </div>
                 </div>
                 <div class="promo-block__footer-item">
                   <div class="promo-block__footer-item-content">
-                    3.4%
+                    6.25%
                   </div>
                   <div class="promo-block__footer-item-label">
-                    в месяц
+                    per month
                   </div>
                 </div>
               </div>
