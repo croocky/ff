@@ -5185,3 +5185,8 @@ p.codrops-demos a.current-demo:hover{
   display: block;
   content: '';
 }
+
+.promo-block__wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
