@@ -28,8 +28,8 @@ class UserInside extends Controller
 
         if (Auth::check())
         {
-            //$id = Auth::id();
-            $currentuser = User::where('login',$login)->first();
+            $id = Auth::id();
+            $currentuser = User::where('id',$id)->first();
             if(is_null($currentuser)){
                 abort(404);
             }
