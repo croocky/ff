@@ -75,36 +75,18 @@
 
     <div class="sector bg_black">
       <div class="heading">FAQ</div>
-      <div class="row">
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
+      <div class="row cryptostats">
+        <div class="three columns">
+          <p>BTC</p>
+          <img src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
         </div>
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
+        <div class="three columns">
+          <p>ETH</p>
+          <img src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
         </div>
-      </div>
-
-      <div class="row">
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
-        </div>
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
-        </div>
-        <div class="six columns">
-          <div class="subheading-small">1. Question</div>
-          <div class="text">Summer is almost here and what better way to motivate your employees than with an abundance of brand name gifts that are perfect for summer activities! Whether you already have an employee incentive</div>
+        <div class="three columns">
+          <p>LTC</p>
+          <img src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
         </div>
       </div>
 
