@@ -36,11 +36,12 @@ class UserInside extends Controller
             $deposit = $currentuser->deposit;
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
             $refferals = array_filter(explode(',',$currentuser->structure));
-            $first_level = User::whereIn('id',$refferals)->pluck('name','deposit');
+            $first_level = User::whereIn('id',$refferals)->pluck('id',pluck('name','deposit'));
+            var_dump($first_level);
             $count_first_level = $first_level->count();
 
-            foreach($first_level as $refferal){
-                    var_dump($refferal);
+            foreach($first_level as $key => $val){
+
             }
             return view('lc', ['user' => $currentuser, 'level' => $level[0]]);
         }
