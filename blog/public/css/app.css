@@ -5096,8 +5096,17 @@ p.codrops-demos a.current-demo:hover{
 
 .cryptostats__heading {
   text-align: center;
+  margin-bottom: 15px;
   font-size: 1.5em;
 font-weight: 900;
+}
+
+.cryptostats__heading img {
+  /* float: left; */
+height: 23px;
+margin-bottom: -3px;
+display: inline-block;
+margin-right: 7px;
 }
 .header__burger {
   display: none;
