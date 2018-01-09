@@ -90,40 +90,17 @@
                   <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
                     @foreach ($first as $element)
-                      <p>This is user {{ $element['name'] }}</p>
+                      <div class="three columns">
+                        <div class="structure__item">
+                          <div class="structure__item-lead">{{ $element['name'] }}</div>
+                          <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
+                          <div class="structure__item-name">{{ $element['name'] }}</div>
+                          <div class="structure__item-contrubution">{{ $element['deposit'] }}$</div>
+                        </div>
+                      </div>
+
                     @endforeach
-                    <div class="three columns">
-                      <div class="structure__item">
-                        <div class="structure__item-lead">vladislavn</div>
-                        <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                        <div class="structure__item-name">vladislavn</div>
-                        <div class="structure__item-contrubution">1400$</div>
-                      </div>
-                    </div>
-                    <div class="three columns">
-                      <div class="structure__item">
-                        <div class="structure__item-lead">vladislavn</div>
-                        <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                        <div class="structure__item-name">vladislavn</div>
-                        <div class="structure__item-contrubution">1400$</div>
-                      </div>
-                    </div>
-                    <div class="three columns">
-                      <div class="structure__item">
-                        <div class="structure__item-lead">vladislavn</div>
-                        <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                        <div class="structure__item-name">vladislavn</div>
-                        <div class="structure__item-contrubution">1400$</div>
-                      </div>
-                    </div>
-                    <div class="three columns">
-                      <div class="structure__item">
-                        <div class="structure__item-lead">vladislavn</div>
-                        <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                        <div class="structure__item-name">vladislavn</div>
-                        <div class="structure__item-contrubution">1400$</div>
-                      </div>
-                    </div>
+
 
                   </div>
 
