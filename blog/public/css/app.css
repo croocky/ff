@@ -3991,6 +3991,10 @@ margin-right: 15px;
     color: #1c222a;
 }
 
+.heading_white {
+	color: #fff;
+}
+
 .subheading {
 	font-size: 1.5em;
 	font-weight: 900;
@@ -5088,6 +5092,12 @@ p.codrops-demos a.current-demo:hover{
 }
 .cryptostats__img {
   width: 100%;
+}
+
+.cryptostats__heading {
+  text-align: center;
+  font-size: 1.5em;
+font-weight: 900;
 }
 .header__burger {
   display: none;

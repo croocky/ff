@@ -74,18 +74,18 @@
     </div>
 
     <div class="sector bg_black">
-      <div class="heading">FAQ</div>
+      <div class="heading heading_white">Cryptocurrencies</div>
       <div class="row cryptostats">
-        <div class="three columns">
-          <p>BTC</p>
+        <div class="four columns">
+          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/btc.svg') }}" alt="BTC"> BTC</p>
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
         </div>
-        <div class="three columns">
-          <p>ETH</p>
+        <div class="four columns">
+          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="BTC"> ETH</p>
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
         </div>
-        <div class="three columns">
-          <p>LTC</p>
+        <div class="four columns">
+          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="BTC"> LTC</p>
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
         </div>
       </div>
