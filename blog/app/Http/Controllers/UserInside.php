@@ -38,7 +38,7 @@ class UserInside extends Controller
             $refferals = array_filter(explode(',',$currentuser->structure));
             $first_level = User::select('id','name','deposit','structure')->whereIn('id',$refferals)->get()->toArray();
             var_dump($first_level);
-            $count_first_level = $first_level->count();
+            //$count_first_level = $first_level->count();
 
             foreach($first_level as $key => $val){
 
