@@ -40,7 +40,7 @@ class UserInside extends Controller
 
             foreach($first_level as $key => $val){
 
-                $first_level_payroll =+ $first_level['deposit'];
+                $first_level_payroll =+ $first_level[$key]['deposit'];
             }
             echo $first_level_payroll;
             return view('lc', ['user' => $currentuser, 'level' => $level[0], 'first' => $first_level]);
