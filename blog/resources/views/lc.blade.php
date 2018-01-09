@@ -9,25 +9,25 @@
                   <div class="profile-level__heading">
                     <img class="profile-level__heading-i" src="/imgsvg/medal.svg" alt="Medal">
                    <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login }}</span></div>
-                    <div class="profile-level__heading-level">Уровень <span class="profile-level__heading-level-data">{{ $level->id }}</span></div>
+                    <div class="profile-level__heading-level">Level <span class="profile-level__heading-level-data">{{ $level->id }}</span></div>
                   </div>
 
                   <div class="level-bar">
                     <div class="level-bar__ready"></div>
-                    <div class="level-bar__t">${{ $user->deposit }}/$40000</div>
+                    <div class="level-bar__t">${{ $user->deposit }}/${{ $level->next_level }}</div>
                   </div>
 
                   <div class="profile-level__alreadygot">
                       <div class="profile-level__alreadygot-heading">
-                        <span class="profile-level__alreadygot-heading-data">{{ $level->percentage }}</span>% Выплата
+                        <span class="profile-level__alreadygot-heading-data">{{ $level->percentage }}</span>% Payout
                       </div>
                       <div class="profile-level__willget-heading">
-                        <span class="profile-level__willget-heading-data">11</span>% Следующий уровень выплаты
+                        <span class="profile-level__willget-heading-data">11</span>% Payout on next level
                       </div>
                   </div>
 
                   <div class="profile-level__awards">
-                    <div class="profile-level__awards-heading">Премии</div>
+                    <div class="profile-level__awards-heading">Awards</div>
                     <div class="profile-level__awards-list">
                       <img class="profile-level__awards-list-item" src="/imgsvg/medal.svg" alt="Medal">
                       <img class="profile-level__awards-list-item" src="/imgsvg/medal.svg" alt="Medal">
@@ -45,23 +45,23 @@
                   <div class="profile-level__chalenge-list">
                     <div class="profile-level__chalenge-list-item profile-level__chalenge-list-item_done">
                       <img class="profile-level__chalenge-list-item-i" src="/imgsvg/checked.svg" alt="Checked">
-                      <div class="profile-level__chalenge-list-item-t">Уровень 3 +$1000</div>
+                      <div class="profile-level__chalenge-list-item-t">Lvl 3 +$1000</div>
                     </div>
                     <div class="profile-level__chalenge-list-item">
                       <img class="profile-level__chalenge-list-item-i" src="/imgsvg/checked2.svg" alt="Checked">
-                      <div class="profile-level__chalenge-list-item-t">Уровень 4 +$2500 (вклад структуры $40000, личный вклад $5000)</div>
+                      <div class="profile-level__chalenge-list-item-t">Lvl 4 +$2500 </div>
                     </div>
                   </div>
 
-                  <div class="button">Посмотреть все премии</div>
+                  <div class="button">Show all</div>
 
                   <div class="profile-level__contribution">
                     <div class="profile-level__contribution-item">
                       <span  class="profile-level__contribution-item-amount">$
-                        <span class="profile-level__contribution-item-amount-data">1400</span>
+                        <span class="profile-level__contribution-item-amount-data">{{ $user->deposit }}</span>
                       </span>
                       <div class="profile-level__contribution-item-lable">
-                        Личный вклад
+                        Personal deposit
                       </div>
                     </div>
                     <div class="profile-level__contribution-item">
@@ -69,7 +69,7 @@
                         <span class="profile-level__contribution-item-amount-data">27000</span>
                       </span>
                       <div class="profile-level__contribution-item-lable">
-                        Вклад структуры
+                        Whole structure deposit
                       </div>
                     </div>
                   </div>
@@ -77,7 +77,7 @@
                 </div>
               </div>
               <div class="profile__right padding">
-                <div class="heading">Моя структура</div>
+                <div class="heading">My Structure</div>
                 <div class="structure">
                   <div class="structure__heading">
                     <div class="structure__item">
@@ -89,6 +89,9 @@
 
                   <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
+                    @foreach ($first as $element)
+                      <p>This is user {{ $element['name'] }}</p>
+                    @endforeach
                     <div class="three columns">
                       <div class="structure__item">
                         <div class="structure__item-lead">vladislavn</div>
