@@ -5086,6 +5086,9 @@ p.codrops-demos a.current-demo:hover{
   width: 41px;
   padding: 15px;
 }
+.cryptostats__img {
+  width: 100%;
+}
 .header__burger {
   display: none;
 }

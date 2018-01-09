@@ -78,15 +78,15 @@
       <div class="row cryptostats">
         <div class="three columns">
           <p>BTC</p>
-          <img src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
+          <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
         </div>
         <div class="three columns">
           <p>ETH</p>
-          <img src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
+          <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
         </div>
         <div class="three columns">
           <p>LTC</p>
-          <img src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
+          <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
         </div>
       </div>
 
