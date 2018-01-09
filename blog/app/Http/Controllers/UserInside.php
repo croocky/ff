@@ -37,8 +37,9 @@ class UserInside extends Controller
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
             $refferals = array_filter(explode(',',$currentuser->structure));
             $first_level = User::whereIn('id',$refferals)->pluck('name','deposit');
+            $count_first_level = $first_level->count();
             var_dump($first_level);
-
+             echo $count_first_level;
             foreach($refferals as $refferal){
 
             }
