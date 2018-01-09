@@ -43,7 +43,7 @@ class UserInside extends Controller
             foreach($first_level as $key => $val){
 
             }
-            return view('lc', ['user' => $currentuser, 'level' => $level[0]]);
+            return view('lc', ['user' => $currentuser, 'level' => $level[0], 'first' => $first_level]);
         }
         else{
             return view('auth/login', ['user' => User::findOrFail($id)]);
