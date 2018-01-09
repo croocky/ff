@@ -23,7 +23,7 @@ class UserInside extends Controller
      * @return Response
      */
 
-    public function show($login)
+    public function show()
     {
 
         if (Auth::check())
