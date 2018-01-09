@@ -39,7 +39,7 @@ class UserInside extends Controller
             $first_level = User::whereIn('id',$refferals)->pluck('name','deposit');
             $count_first_level = $first_level->count();
 
-            foreach($refferals->items as $refferal){
+            foreach($first_level->items as $refferal){
                     var_dump($refferal);
             }
             return view('lc', ['user' => $currentuser, 'level' => $level[0]]);
