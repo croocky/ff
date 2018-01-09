@@ -37,10 +37,10 @@ class UserInside extends Controller
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
             $refferals = array_filter(explode(',',$currentuser->structure));
             $first_level = User::select('id','name','deposit','structure')->whereIn('id',$refferals)->get()->toArray();
-
+            $first_level_payroll =0;
             foreach($first_level as $key => $val){
 
-                $first_level_payroll =+ $first_level[$key]['deposit'];
+                $first_level_payroll = $first_level_payroll + $first_level[$key]['deposit'];
             }
             echo $first_level_payroll;
             return view('lc', ['user' => $currentuser, 'level' => $level[0], 'first' => $first_level]);
