@@ -3992,7 +3992,7 @@ margin-right: 15px;
 }
 
 .heading_white {
-	color: #fff;
+	color: #fff !important;
 }
 
 .subheading {

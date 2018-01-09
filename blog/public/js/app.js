@@ -21988,37 +21988,7 @@ $(document).ready(function(){
 /* 14 */
 /***/ (function(module, exports) {
 
-
-$.ajax({
-    url: "https://api.coindesk.com/v1/bpi/currentprice.json"
-}).done(function (data) {
-    var jsondata = JSON.parse(data);
-    var pound = jsondata.bpi.GBP.symbol + jsondata.bpi.GBP.rate_float;
-    var euro = jsondata.bpi.EUR.symbol + jsondata.bpi.EUR.rate_float;
-    var dollar = jsondata.bpi.USD.symbol + jsondata.bpi.USD.rate_float;
-    $('.chart').append('<i class="chart__item chart__item_lable">Bitcoin Price Index (BPI)</i><i class="chart__item">' + pound + '</i><i class="chart__item">' + euro + '</i><i class="chart__item">' + dollar + '</i>');
-});
-
-$(function () {
-
-    var marquee = $(".chart");
-    marquee.css({ "overflow": "hidden", "width": "100%" });
-
-    // оболочка для текста ввиде span (IE не любит дивы с inline-block)
-    marquee.wrapInner("<span>");
-    marquee.find("span").css({ "width": "50%", "display": "inline-block", "text-align": "center" });
-    marquee.append(marquee.find("span").clone()); // тут у нас два span с текстом
-
-    marquee.wrapInner("<div>");
-    marquee.find("div").css("width", "200%");
-
-    var reset = function reset() {
-        $(this).css("margin-left", "0%");
-        $(this).animate({ "margin-left": "-100%" }, 12000, 'linear', reset);
-    };
-
-    reset.call(marquee.find("div"));
-});
+throw new Error("Module build failed: SyntaxError: d:/PRJCT/new/swiftygit/ff/blog/resources/assets/js/my.js: Unexpected token (1:0)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m current\n \u001b[90m   | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 2 | \u001b[39m\n \u001b[90m 3 | \u001b[39m$\u001b[33m.\u001b[39majax({\n \u001b[90m 4 | \u001b[39m  url\u001b[33m:\u001b[39m \u001b[32m\"https://api.coindesk.com/v1/bpi/currentprice.json\"\u001b[39m\u001b[0m\n");
 
 /***/ }),
 /* 15 */

@@ -81,11 +81,11 @@
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
         </div>
         <div class="four columns">
-          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="BTC"> ETH</p>
+          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="ETH"> ETH</p>
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
         </div>
         <div class="four columns">
-          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="BTC"> LTC</p>
+          <p class="cryptostats__heading"><img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="LTC"> LTC</p>
           <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
         </div>
       </div>
