@@ -16,3 +16,7 @@ margin-bottom: -3px;
 display: inline-block;
 margin-right: 7px;
 }
+
+.cryptostats__item {
+  margin-bottom: 30px;
+}
