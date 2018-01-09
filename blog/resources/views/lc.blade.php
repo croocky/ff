@@ -98,7 +98,7 @@
                           <div class="structure__item-contrubution">{{ $element['deposit'] }}$</div>
                         </div>
                       </div>
-                      <p>This is user {{ $element['name'] }}</p>
+
                     @endforeach
 
 
