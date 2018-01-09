@@ -35,7 +35,7 @@ class UserInside extends Controller
             }
             $deposit = $currentuser->deposit;
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
-            $reffs = explode(',',$currentuser->structure);
+            $reffs = array_filter(explode(',',$currentuser->structure));
             var_dump($reffs);
             return view('lc', ['user' => $currentuser, 'level' => $level[0]]);
         }
