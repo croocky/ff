@@ -8,6 +8,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Structures;
 use App\User;
 use App\Levels;
 use App\Http\Controllers\Controller;
@@ -35,6 +36,8 @@ class UserInside extends Controller
             }
             $deposit = $currentuser->deposit;
             $level = Levels::where('pers_amount','<',$deposit)->orderBy('pers_amount', 'desc')->take(1)->get();
+            $refferals = Structures::where('id', $id)->get();
+            var_dump($refferals);
             $refferals = array_filter(explode(',',$currentuser->structure));
             $first_level = User::select('id','name','deposit','structure')->whereIn('id',$refferals)->get()->toArray();
             $first_level_payroll =0;
