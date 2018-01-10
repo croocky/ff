@@ -147,7 +147,6 @@ margin-right: 15px;
 
 .sector {
 	padding: 15px;
-	background: #fff;
 	position: relative;
 }
 
@@ -263,7 +262,7 @@ margin-right: 15px;
 }
 
 .sector {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
 }
