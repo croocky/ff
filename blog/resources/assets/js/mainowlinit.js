@@ -1,6 +1,3 @@
-require('jquery');
-
-require ('owl.carousel');
 
 $(document).ready(function(){
   $('.cryptostats').owlCarousel({
