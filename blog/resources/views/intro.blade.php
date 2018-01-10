@@ -216,12 +216,12 @@
         </div>
     </div>
 
-
+  <footer class="footer">THERE SHOULD BE FOOTER</footer>
 
   </div>
 
 
-  <footer class="footer">THERE SHOULD BE FOOTER</footer>
+
 
 
 @endsection

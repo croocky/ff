@@ -208,6 +208,7 @@ margin-right: 15px;
 .bg_black {
 	padding-top: 30px;
 	padding-bottom: 60px;
+	position: relative;
 	color: #fff;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#16a4f9+1,1174af+100 */
 	background: #1C222A; /* Old browsers */
