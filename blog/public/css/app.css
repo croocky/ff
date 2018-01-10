@@ -5175,7 +5175,12 @@ margin-right: 7px;
 
 .promo-block__img-wrapper {
   width: 100%;
+  top: 0;
   position: absolute;
+}
+
+.promo-block__body-inner {
+  position: relative;
 }
 
 .promo-block__img {
