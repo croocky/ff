@@ -5170,6 +5170,17 @@ margin-right: 7px;
 
 .promo-block__body {
   padding: 30px 0;
+  position: relative;
+}
+
+.promo-block__img-wrapper {
+  width: 100%;
+  position: absolute;
+}
+
+.promo-block__img {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .promo-block__body-label {
