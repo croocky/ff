@@ -5109,6 +5109,7 @@ height: 23px;
 margin-bottom: -3px;
 display: inline-block !important;
 margin-right: 7px;
+width: auto !important;
 }
 
 .cryptostats__item {
