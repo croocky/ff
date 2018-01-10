@@ -1,18 +1,21 @@
+require('jquery');
+
+require ('owl.carousel');
 
 $(document).ready(function(){
   $('.cryptostats').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
-    nav:true,
+    nav:false,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:1
         },
         1000:{
-            items:5
+            items:3
         }
     }
   })
