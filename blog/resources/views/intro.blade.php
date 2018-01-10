@@ -84,7 +84,27 @@
             <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
             </div>
             <div class="columns six">
-              cvcvvc
+              <div class="cryptostats__subheading">
+                Рыночная капитализация
+              </div>
+              <div class="cryptostats__markedtext">
+                126.5 млрд. $
+              </div>
+              <div class="cryptostats__subheading">
+                преимущества инвестирования
+              </div>
+              <p class="cryptostats__text">
+                Торговля проводится в режиме 24/7, соответственно инвестиции будут работать круглосуточно.
+              </p>
+              <p class="cryptostats__text">
+                Большая часть технических индикаторов работает на высоком уровне качества.
+              </p>
+              <p class="cryptostats__text">
+                Большая волатильность данного рынка.
+              </p>
+              <p class="cryptostats__text">
+                Хорошие долгосрочные перспективы криптовалюты, дающие все основания полагать, что подобные инвестиции будут приносить неплохую прибыль на протяжение долгого времени.
+              </p>
             </div>
           </div>
           <div class="">

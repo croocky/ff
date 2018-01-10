@@ -5119,6 +5119,14 @@ width: auto !important;
 .cryptostats__item {
   margin-bottom: 30px;
 }
+
+.cryptostats__text {
+	display: block;
+}
+
+.cryptostats__subheading {
+  display: block;
+}
 .header__burger {
   display: none;
 }
