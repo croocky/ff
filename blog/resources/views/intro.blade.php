@@ -106,9 +106,11 @@
                 <div class="promo-block__img-wrapper">
                   <img class="promo-block__img" src="{{ asset('imgsvg/packages/1.svg') }}" alt="Icon">
                 </div>
-                <div class="promo-block__body-label">
+                <div class="promo-block__body-inner">
+                  <div class="promo-block__body-label">
                   Amount of investment</div>
-                <div class="promo-block__body-content">300$ - 5,999$</div>
+                  <div class="promo-block__body-content">300$ - 5,999$</div>
+                </div>
               </div>
               <div class="promo-block__subheading">
                 ROI
@@ -142,9 +144,10 @@
                 <div class="promo-block__img-wrapper">
                   <img class="promo-block__img" src="{{ asset('imgsvg/packages/2.svg') }}" alt="Icon">
                 </div>
-
-                <div class="promo-block__body-label"> Amount of investment</div>
-                <div class="promo-block__body-content">6000$ - 17,999$</div>
+                <div class="promo-block__body-inner">
+                  <div class="promo-block__body-label"> Amount of investment</div>
+                  <div class="promo-block__body-content">6000$ - 17,999$</div>
+                </div>
               </div>
               <div class="promo-block__subheading">
                 ROI
@@ -178,8 +181,10 @@
                 <div class="promo-block__img-wrapper">
                   <img class="promo-block__img" src="{{ asset('imgsvg/packages/3.svg') }}" alt="Icon">
                 </div>
-                <div class="promo-block__body-label"> Amount of investment</div>
-                <div class="promo-block__body-content">6000$ - 17,999$</div>
+                <div class="promo-block__body-inner">
+                  <div class="promo-block__body-label"> Amount of investment</div>
+                  <div class="promo-block__body-content">6000$ - 17,999$</div>
+                </div>
               </div>
               <div class="promo-block__subheading">
                 ROI
