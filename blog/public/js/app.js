@@ -25324,11 +25324,9 @@ $(function () {
 
 /***/ }),
 /* 29 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-__webpack_require__(12);
 
-__webpack_require__(28);
 
 $(document).ready(function () {
     $('.cryptostats').owlCarousel({
