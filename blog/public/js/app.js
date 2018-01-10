@@ -215,6 +215,8 @@ __webpack_require__(13);
 __webpack_require__(28);
 
 __webpack_require__(14);
+
+__webpack_require__(29);
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
@@ -25319,6 +25321,31 @@ $(function () {
 
 })(window.Zepto || window.jQuery, window, document);
 
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(12);
+
+__webpack_require__(28);
+
+$('.cryptostats').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
 
 /***/ })
 /******/ ]);

@@ -32,3 +32,5 @@ require('./nav');
 require ('owl.carousel');
 
 require('./my');
+
+require('./mainowlinit');
