@@ -39,7 +39,7 @@ width: auto !important;
   margin-bottom: 15px;
 }
 
-.cryptostats__subheading  {
+.cryptostats__markedtext {
   font-weight: 900;
 font-size: 1.6em;
 text-transform: uppercase;
