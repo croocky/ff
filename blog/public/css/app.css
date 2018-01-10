@@ -5098,6 +5098,9 @@ p.codrops-demos a.current-demo:hover{
 }
 .cryptostats__img {
   width: 100%;
+max-width: 400px;
+margin: 0 auto;
+    margin-bottom: 45px;
 }
 
 .cryptostats__heading {
@@ -5121,11 +5124,23 @@ width: auto !important;
 }
 
 .cryptostats__text {
-	display: block;
+      font-weight: 300;
+      font-size: .85em;
+      margin: 15px 0 0;
+      max-width: 400px;
+      padding-left: 15px;
 }
 
 .cryptostats__subheading {
-  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.cryptostats__subheading  {
+  font-weight: 900;
+font-size: 1.6em;
+text-transform: uppercase;
 }
 .header__burger {
   display: none;

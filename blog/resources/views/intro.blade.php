@@ -85,25 +85,25 @@
             </div>
             <div class="columns six">
               <div class="cryptostats__subheading">
-                Рыночная капитализация
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Market capitalization
               </div>
               <div class="cryptostats__markedtext">
-                126.5 млрд. $
+                126.5 milliards $
               </div>
               <div class="cryptostats__subheading">
-                преимущества инвестирования
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> advantages of investing
               </div>
               <p class="cryptostats__text">
-                Торговля проводится в режиме 24/7, соответственно инвестиции будут работать круглосуточно.
+                Trade is carried out in 24/7 mode, accordingly investments will work round the clock.
               </p>
               <p class="cryptostats__text">
-                Большая часть технических индикаторов работает на высоком уровне качества.
+                Most of the technical indicators work at a high level of quality.
               </p>
               <p class="cryptostats__text">
-                Большая волатильность данного рынка.
+                The greater volatility of this market.
               </p>
               <p class="cryptostats__text">
-                Хорошие долгосрочные перспективы криптовалюты, дающие все основания полагать, что подобные инвестиции будут приносить неплохую прибыль на протяжение долгого времени.
+                Good long-term prospects of the crypto currency, giving all grounds to believe that such investments will bring good profit for a long time.
               </p>
             </div>
           </div>
