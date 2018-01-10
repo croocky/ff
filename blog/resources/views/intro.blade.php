@@ -90,6 +90,7 @@
               <div class="cryptostats__markedtext">
                 126.5 milliards $
               </div>
+              
               <div class="cryptostats__subheading">
                 <i class="fa fa-check-circle-o" aria-hidden="true"></i> advantages of investing
               </div>
