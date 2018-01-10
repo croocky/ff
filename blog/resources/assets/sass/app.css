@@ -742,3 +742,7 @@ margin-right: 15px;
 input[type='checkbox'] {
 	width: auto;
 }
+
+.superstar {
+	display: none !important;
+}
