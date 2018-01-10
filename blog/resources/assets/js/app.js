@@ -29,6 +29,6 @@ global.windows = require('./windows');
 
 require('./nav');
 
-
+require ('owl.carousel');
 
 require('./my');
