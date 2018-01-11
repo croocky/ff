@@ -76,7 +76,7 @@
 
     <div class="bg_black">
       <div class="sector">
-        <div class="heading heading_white">Cryptocurrencies</div>
+        <div class="heading heading_white">Earnings tool</div>
         <div class="cryptostats owl-carousel">
           <div class="">
             <div class="columns six">
@@ -113,7 +113,7 @@
           </div>
           <div class="">
             <div class="columns six">
-              <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="LTC"> LTC = 1203</p>
+              <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="LTC"> LTC = 1203$</p>
               <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
             </div>
             <div class="columns six">
@@ -143,7 +143,7 @@
           </div>
           <div class="">
             <div class="columns six">
-            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="BTC"> LTC = 233</p>
+            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="BTC"> LTC = 233$</p>
             <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
             </div>
             <div class="columns six">
