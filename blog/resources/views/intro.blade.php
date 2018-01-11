@@ -113,8 +113,8 @@
           </div>
           <div class="">
             <div class="columns six">
-              <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="LTC"> LTC = 1203$</p>
-              <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
+              <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="LTC"> ETH = 1203$</p>
+              <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="LTC GRAPH">
             </div>
             <div class="columns six">
               <div class="">
