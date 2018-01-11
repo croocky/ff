@@ -80,17 +80,20 @@
         <div class="cryptostats owl-carousel">
           <div class="">
             <div class="columns six">
-            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/btc.svg') }}" alt="BTC"> BTC = 14550$</p>
-            <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/1.svg') }}" alt="BTC GRAPH">
+            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="ETH"> ETH = 1228$</p>
+            <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
             </div>
             <div class="columns six">
+              <div class="">
+
+              </div>
               <div class="cryptostats__subheading">
                 <i class="fa fa-check-circle-o" aria-hidden="true"></i> Market capitalization
               </div>
               <div class="cryptostats__markedtext">
                 126.5 milliards $
               </div>
-              
+
               <div class="cryptostats__subheading">
                 <i class="fa fa-check-circle-o" aria-hidden="true"></i> advantages of investing
               </div>
@@ -110,20 +113,62 @@
           </div>
           <div class="">
             <div class="columns six">
-            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/eth.svg') }}" alt="ETH"> ETH = 1228$</p>
-            <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/2.svg') }}" alt="ETH GRAPH">
-            </div>
-            <div class="columns six">
-              cvcvvc
-            </div>
-          </div>
-          <div class="">
-            <div class="columns six">
               <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="LTC"> LTC = 250$</p>
               <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
             </div>
             <div class="columns six">
-              vvcv
+              <div class="">
+
+              </div>
+              <div class="cryptostats__subheading">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Market capitalization
+              </div>
+              <div class="cryptostats__markedtext">
+                28.3 milliards $
+              </div>
+
+              <div class="cryptostats__subheading">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> advantages of investing
+              </div>
+              <p class="cryptostats__text">
+                The First Worldwide Decentralized Computer
+              </p>
+              <p class="cryptostats__text">
+                The development fund is used to finance developers.
+              </p>
+              <p class="cryptostats__text">
+                A large number of developments are carried out on the platform.
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <div class="columns six">
+            <p class="cryptostats__heading">1 <img src="{{ asset('imgsvg/cc_white/ltc.svg') }}" alt="BTC"> LTC = 233</p>
+            <img class="cryptostats__img" src="{{ asset('imgsvg/cryptostats/3.svg') }}" alt="LTC GRAPH">
+            </div>
+            <div class="columns six">
+              <div class="">
+
+              </div>
+              <div class="cryptostats__subheading">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> Market capitalization
+              </div>
+              <div class="cryptostats__markedtext">
+                3.02 milliards $
+              </div>
+
+              <div class="cryptostats__subheading">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i> advantages of investing
+              </div>
+              <p class="cryptostats__text">
+                The First Worldwide Decentralized Computer
+              </p>
+              <p class="cryptostats__text">
+                The development fund is used to finance developers.
+              </p>
+              <p class="cryptostats__text">
+                A large number of developments are carried out on the platform.
+              </p>
             </div>
           </div>
         </div>
