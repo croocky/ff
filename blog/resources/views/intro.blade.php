@@ -22,7 +22,7 @@
       <div id='stars3'></div>
     </div>
 
-    <div class="button-registration"><a href="/login" class="button-registration__inner">Registration</div></a>
+    <div class="button-registration"><a href="/login" class="button-registration__inner">Registration <i class="fa fa-sign-in" aria-hidden="true"></i></div></a>
 
     <div class=" bg_black">
       <div class="sector">
