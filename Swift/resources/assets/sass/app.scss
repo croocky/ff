@@ -6,4 +6,26 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "skeleton.css";
+
+@import "animate.css";
+@import "app.css";
+@import "demo.css";
+@import "stars.css";
+
+@import "slideshow.css";
+
+@import "windows.css";
+
+@import "header";
+
+@import "promo-block";
+
+@import "login";
+
+@import "cryptostats.css";
+
+@import "cryptostats.css";
+
+@import "node_modules/owl.carousel/dist/assets/owl.carousel";

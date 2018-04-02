@@ -1,0 +1,45 @@
+.cryptostats__img {
+  width: 100%;
+max-width: 400px;
+margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.cryptostats__heading {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+font-weight: 900;
+}
+
+.cryptostats__heading img {
+  /* float: left; */
+height: 23px;
+margin-bottom: -3px;
+display: inline-block !important;
+margin-right: 7px;
+width: auto !important;
+}
+
+.cryptostats__item {
+  margin-bottom: 30px;
+}
+
+.cryptostats__text {
+      font-weight: 300;
+      font-size: .85em;
+      margin: 15px 0 0;
+      max-width: 400px;
+      padding-left: 15px;
+}
+
+.cryptostats__subheading {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.cryptostats__markedtext {
+  font-weight: 900;
+font-size: 1.6em;
+text-transform: uppercase;
+}
