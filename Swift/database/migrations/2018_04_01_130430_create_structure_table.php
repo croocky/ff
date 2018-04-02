@@ -17,7 +17,7 @@ class CreateStructureTable extends Migration
             $table->increments('id');
             $table->string('name', 30)->unique();
             $table->integer('user_id')->unsigned();
-            $table->integer('amount', 255);
+            $table->integer('amount');
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
