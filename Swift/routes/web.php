@@ -27,3 +27,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+Route::get('post', function () {
+    $posts = App\Post::all();
+    return view('posts', compact('posts'));
+});
+Route::get('post/{slug}', function($slug){
+    $post = App\Post::where('slug', '=', $slug)->firstOrFail();
+    return view('post', compact('post'));
+});
