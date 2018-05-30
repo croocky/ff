@@ -90,7 +90,7 @@
                   <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
                     <!--
-                  /*  @foreach ($first as $element)
+
                       <div class="three columns">
                         <div class="structure__item">
                           <div class="structure__item-lead">{{ $element['name'] }}</div>
@@ -100,7 +100,7 @@
                         </div>
                       </div>
 
-                   @endforeach */
+
 
                    -->
                   </div>
