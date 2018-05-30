@@ -15,13 +15,10 @@ Route::get('/', function () {
     return view('intro');
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'UserController@index')->name('home');
 
 
 Route::group(['prefix' => 'admin'], function () {
