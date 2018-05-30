@@ -10,6 +10,7 @@
     top: 0px;
     left: 0px;
 	z-index: 0;
+	white-space: nowrap;
 	margin-bottom: 0;
 }
 .cb-slideshow:after {
