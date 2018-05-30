@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\User;
+use App\Levels;
 
 class UserController extends Controller
 {
@@ -12,7 +13,7 @@ class UserController extends Controller
     {
         $id = Auth::id();
         $user = User::where('id', $id)->first();
-        
-        return view('lc', compact('user'));
+        $level = Levels::where('deposit','>', $user->deposit)->first();
+        return view('lc', compact('user','level'));
     }
 }
