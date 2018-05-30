@@ -13,6 +13,6 @@ class UserController extends Controller
         $id = Auth::id();
         $user = User::where('id', $id)->get();
         
-        return view('home', compact('user'));
+        return view('lc', compact('user'));
     }
 }
