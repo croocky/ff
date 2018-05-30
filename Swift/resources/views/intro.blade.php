@@ -8,7 +8,7 @@
 
 
     <ul class="cb-slideshow">
-        <li><span>Image 01</span><div><h3>TEST·TO·CUR·RENCY</h3></div></li>
+        <li><span>Image 01</span><div><h3>TEST1·TO·CUR·RENCY</h3></div></li>
         <li><span>Image 02</span><div><h3>IN·VEST·MENTS</h3></div></li>
         <li><span>Image 03</span><div><h3>IN·DE·PEN·DEN·CE</h3></div></li>
         <li><span>Image 04</span><div><h3>BIT·COIN</h3></div></li>
