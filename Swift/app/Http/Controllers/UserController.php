@@ -13,7 +13,7 @@ class UserController extends Controller
     {
         $id = Auth::id();
         $user = User::where('id', $id)->first();
-        $level = Levels::where('deposit','>', $user->deposit)->fi();
+        $level = Levels::where('deposit','>', $user->deposit)->first();
         return view('lc', compact('user','level'));
     }
 }
