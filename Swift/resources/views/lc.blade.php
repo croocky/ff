@@ -8,22 +8,22 @@
                 <div class="profile-level">
                   <div class="profile-level__heading">
                     <img class="profile-level__heading-i" src="/imgsvg/medal.svg" alt="Medal">
-                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->login }}</span></div>
+                   <div class="profile-level__heading-login"><span class="profile-level__heading-login-data"> {{ $user->name }}</span></div>
                     <div class="profile-level__heading-level">Level <span class="profile-level__heading-level-data">{{ $level->id }}</span></div>
                   </div>
 
                   <div class="level-bar">
                     <div class="level-bar__ready"></div>
-                    <div class="level-bar__t">${{ $user->deposit }}/${{ $level->next_level }}</div>
+                    <div class="level-bar__t">${{ $user->deposit }}/${{ $level->limit }}</div>
                   </div>
 
                   <div class="profile-level__alreadygot">
                       <div class="profile-level__alreadygot-heading">
-                        <span class="profile-level__alreadygot-heading-data">{{ $level->percentage }}</span>% Payout
+                        <span class="profile-level__alreadygot-heading-data"></span> {{ $level->percentage }}% Payout
                       </div>
-                      <div class="profile-level__willget-heading">
+                      <!--<div class="profile-level__willget-heading">
                         <span class="profile-level__willget-heading-data">11</span>% Payout on next level
-                      </div>
+                      </div> -->
                   </div>
 
                   <div class="profile-level__awards">
@@ -89,19 +89,19 @@
 
                   <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
-                    @foreach ($first as $element)
+                    @foreach($members as $member)
+
                       <div class="three columns">
                         <div class="structure__item">
-                          <div class="structure__item-lead">{{ $element['name'] }}</div>
+                          <div class="structure__item-lead"> {{ $member->user->name }}</div>
                           <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                          <div class="structure__item-name">{{ $element['name'] }}</div>
-                          <div class="structure__item-contrubution">{{ $element['deposit'] }}$</div>
+                          <div class="structure__item-name"> {{  $member->user->name  }}</div>
+                          <div class="structure__item-contrubution"> {{$member->user->deposit  }}$</div>
                         </div>
                       </div>
 
-                    @endforeach
 
-
+                      @endforeach
                   </div>
 
                   <div class="structure__level-heading">Рефералы уровня 2</div>

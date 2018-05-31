@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateStructureUsersTable extends Migration
+class CreateStructuresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,13 @@ class CreateStructureUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('structure_users', function (Blueprint $table) {
+        Schema::create('structures', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('structure')->unsigned();
-
+            $table->string('name', 30)->unique();
             $table->integer('user_id')->unsigned();
-            $table->integer('level');
-
+            $table->integer('amount');
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('structure')->references('id')->on('structure')->onDelete('cascade');
-
         });
     }
 
@@ -34,6 +30,6 @@ class CreateStructureUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('structure_users');
+        Schema::dropIfExists('structures');
     }
 }

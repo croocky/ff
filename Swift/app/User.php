@@ -26,4 +26,12 @@ class User extends \TCG\Voyager\Models\User
     protected $hidden = [
         'password', 'remember_token',
     ];
+    public function level()
+    {
+       return $this->hasOne('App\Levels');
+    }
+    public function structure()
+    {
+        return $this->belongsTo('App\Levels');
+    }
 }
