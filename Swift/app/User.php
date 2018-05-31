@@ -30,4 +30,8 @@ class User extends \TCG\Voyager\Models\User
     {
        return $this->hasOne('App\Levels');
     }
+    public function structure()
+    {
+        return $this->belongsTo('App\Levels');
+    }
 }

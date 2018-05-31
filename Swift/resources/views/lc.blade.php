@@ -89,20 +89,19 @@
 
                   <div class="structure__level-heading">Direct Refferals</div>
                   <div class="row">
-                    <!--
+                    @foreach($members as $member)
 
                       <div class="three columns">
                         <div class="structure__item">
-                          <div class="structure__item-lead"> $element['name'] }}</div>
+                          <div class="structure__item-lead"> {{ $member->user->name }}</div>
                           <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                          <div class="structure__item-name"> $element['name'] }}</div>
-                          <div class="structure__item-contrubution"> $element['deposit'] }}$</div>
+                          <div class="structure__item-name"> {{  $member->user->name  }}</div>
+                          <div class="structure__item-contrubution"> {{$member->user->deposit  }}$</div>
                         </div>
                       </div>
 
 
-
-                   -->
+                      @endforeach
                   </div>
 
                   <div class="structure__level-heading">Рефералы уровня 2</div>
