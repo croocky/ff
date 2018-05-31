@@ -19,11 +19,11 @@
 
                   <div class="profile-level__alreadygot">
                       <div class="profile-level__alreadygot-heading">
-                        <span class="profile-level__alreadygot-heading-data"></span>% Payout
+                        <span class="profile-level__alreadygot-heading-data"></span> {{ $level->percentage }}% Payout
                       </div>
-                      <div class="profile-level__willget-heading">
+                      <!--<div class="profile-level__willget-heading">
                         <span class="profile-level__willget-heading-data">11</span>% Payout on next level
-                      </div>
+                      </div> -->
                   </div>
 
                   <div class="profile-level__awards">
