@@ -205,7 +205,7 @@ margin-right: 15px;
 }
 
 .bg_black {
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 	padding-bottom: 60px;
 	position: relative;
 	color: #fff;
@@ -660,11 +660,12 @@ margin-right: 15px;
 
 .footer {
 	height: 300px;
-    background: #dae0e4;
     padding: 150px;
     box-sizing: border-box;
     color: #a7b7c1;
-    text-align: center;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+    background: #373b46;
 }
 
 .chart {
