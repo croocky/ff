@@ -93,10 +93,10 @@
 
                       <div class="three columns">
                         <div class="structure__item">
-                          <div class="structure__item-lead">{{ $element['name'] }}</div>
+                          <div class="structure__item-lead"> $element['name'] }}</div>
                           <img class="structure__item-img" src="/imgsvg/profile.svg" alt="Profile">
-                          <div class="structure__item-name">{{ $element['name'] }}</div>
-                          <div class="structure__item-contrubution">{{ $element['deposit'] }}$</div>
+                          <div class="structure__item-name"> $element['name'] }}</div>
+                          <div class="structure__item-contrubution"> $element['deposit'] }}$</div>
                         </div>
                       </div>
 
