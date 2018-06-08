@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>Swifty</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-outer"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-105x38.png" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="images/logo-inverse-210x76.png 2x"/></a>
+                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="imgsvg/logo-black.svg" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="images/logo-inverse-210x76.png 2x"/></a>
                 </div>
               </div>
               <div class="rd-navbar-nav-outer">
