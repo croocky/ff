@@ -853,8 +853,8 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-    <script src="js/core.js"> </script>
-    <script src="js/script.js"></script>
+    <script src="{!! asset('js/core.js') !!}"></script>
+    <script src="{!! asset('js/script.js') !!}"></script>
     <script src="https://widgets.bitcoin.com/widget.js"></script>
     <!-- coded by Himic-->
 
