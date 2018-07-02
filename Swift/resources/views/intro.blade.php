@@ -604,44 +604,34 @@
             <div class="col-lg-4">
               <!-- Profile Modern-->
               <article class="profile-modern">
-                <figure class="profile-modern__figure"><img src="images/team-member-2-342x303.jpg" alt="" width="342" height="303"/>
-                </figure>
                 <div class="profile-modern__main">
                   <div class="profile-modern__inset">
-                    <h4 class="profile-modern__name">Anna Williams</h4>
-                    <h5 class="profile-modern__position">Lead Designer</h5>
+                    <h4 class="profile-modern__name">Trader</h4>
+                    <h5 class="profile-modern__position">Amount of investment <strong>6000$ - 17,999$</strong></h5>
                   </div>
-                  <p>Vestibulum enim eros, venenatis at condimentum ac, rutrum eget turpis. Vestibulum vulputate congue felis a iaculis. Duis ligula nibh, dictum quis purus vel, malesuada vulputate felis.</p>
-                  <div class="profile-modern__inset">
-                    <ul class="list-inline list-inline-xs">
-                      <li><a class="icon icon-md link-default mdi mdi-facebook" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-twitter" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-youtube-play" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-instagram" href="#"></a></li>
-                    </ul>
-                  </div>
+                  <p>
+                  ROI 55% per annum
+                  </p>
+                  <p>
+                  ROI 4.6% per month
+                  </p>
                 </div>
               </article>
             </div>
             <div class="col-lg-4">
               <!-- Profile Modern-->
               <article class="profile-modern">
-                <figure class="profile-modern__figure"><img src="images/team-member-3-342x303.jpg" alt="" width="342" height="303"/>
-                </figure>
                 <div class="profile-modern__main">
                   <div class="profile-modern__inset">
-                    <h4 class="profile-modern__name">Ryan Johnson</h4>
-                    <h5 class="profile-modern__position">Product Manager</h5>
+                    <h4 class="profile-modern__name">Advanced</h4>
+                    <h5 class="profile-modern__position">Amount of investment <strong>6000$ - 17,999$</strong></h5>
                   </div>
-                  <p>Curabitur laoreet, sem in vestibulum varius, ipsum ante dignissim orci, nec elementum nisl odio quis odio. Fusce massa in pretium feugiat. Vestibulum blandit convallis lorem.</p>
-                  <div class="profile-modern__inset">
-                    <ul class="list-inline list-inline-xs">
-                      <li><a class="icon icon-md link-default mdi mdi-facebook" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-twitter" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-youtube-play" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-instagram" href="#"></a></li>
-                    </ul>
-                  </div>
+                  <p>
+                  ROI 75% per annum
+                  </p>
+                  <p>
+                  ROI 6.25% per month
+                  </p>
                 </div>
               </article>
             </div>
