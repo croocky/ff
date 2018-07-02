@@ -267,7 +267,7 @@
                 </div>
                 <div class="promo-block__body-inner">
                   <div class="promo-block__body-label"> Amount of investment</div>
-                  <div class="promo-block__body-content">6000$ - 17,999$</div>
+                  <div class="promo-block__body-content">17,999$ and more</div>
                 </div>
               </div>
               <div class="promo-block__subheading">

@@ -624,7 +624,7 @@
                 <div class="profile-modern__main">
                   <div class="profile-modern__inset">
                     <h4 class="profile-modern__name">Advanced</h4>
-                    <h5 class="profile-modern__position">Amount of investment <strong>6000$ - 17,999$</strong></h5>
+                    <h5 class="profile-modern__position">Amount of investment <strong>18,000$ and more</strong></h5>
                   </div>
                   <p>
                   ROI 75% per annum
@@ -640,6 +640,7 @@
       </section>
 
       <!-- Download wallet-->
+      <!--
       <section class="section section-md bg-gray-700 text-center">
         <div class="container">
           <h6>Download wallet</h6>
@@ -660,6 +661,7 @@
           </div>
         </div>
       </section>
+      -->
 
       <!-- Mailform-->
       <section class="section section-lg" id="contacts">
