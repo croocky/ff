@@ -99,28 +99,28 @@
               <div>
                 <div class="slick-slide-caption">
                   <h6>Industry-leading cryptocurrency exchange</h6>
-                  <h1>Bitcoin</h1>
+                  <h1>INVESTMENTS</h1>
                   <h3 class="decoration-heading-1">Revolutionizing finances</h3>
                   <p>Welcome to Bitcoin, #1 resource for all your cryptocurrency needs. We are the most reliable exchange & blockchain news portal.</p>
-                  <div class="slick-slide-caption__footer"><a class="button button-primary" href="#">Read More</a></div>
+                  <div class="slick-slide-caption__footer"><a href="/register" class="button button-primary" href="#">Register</a></div>
                 </div>
               </div>
               <div>
                 <div class="slick-slide-caption">
                   <h6>Introducing the most powerful cryptocurrency</h6>
-                  <h1>New standard</h1>
+                  <h1>CRYPTOCURRENCY</h1>
                   <h3 class="decoration-heading-1">Of Worldwide Payments</h3>
                   <p>Bitcoin empowers people all over the world with new ways of payments for their favorite products and services</p>
-                  <div class="slick-slide-caption__footer"><a class="button button-primary" href="#">Read More</a></div>
+                  <div class="slick-slide-caption__footer"><a href="/register" class="button button-primary" href="#">Register</a></div>
                 </div>
               </div>
               <div>
                 <div class="slick-slide-caption">
                   <h6>We provide regular updates on the blockchain</h6>
-                  <h1>Daily news</h1>
+                  <h1>BLOCKCHAIN</h1>
                   <h3 class="decoration-heading-1">About #1 cryptocurrency</h3>
                   <p>Our qualified team provides daily publications and regular updates about events that happen in the world of the blockchain.</p>
-                  <div class="slick-slide-caption__footer"><a class="button button-primary" href="#">Read More</a></div>
+                  <div class="slick-slide-caption__footer"><a href="/register" class="button button-primary" href="#">Register</a></div>
                 </div>
               </div>
             </div>
@@ -152,6 +152,7 @@
       </section>
 
       <!-- Video-->
+      <!--
       <section class="section context-dark section-1">
         <div class="section-inner bg-gray-700">
           <svg class="section-svg__shape" width="1920" height="398.24" viewbox="0 0 1920 398.24301" preserveAspectRatio="none">
@@ -171,13 +172,13 @@
           </div>
         </div>
       </section>
-
+      -->
       <!-- How it works-->
       <section class="section section-lg bg-white text-center">
         <div class="container container-md-smaller">
           <div class="row justify-content-center">
             <div class="col-sm-10 col-md-12">
-              <h6 class="wow fadeInUpSmall">How it works</h6>
+              <h6 class="wow fadeInUpSmall">ADVANTAGES</h6>
               <h2 class="wow fadeInUpSmall" data-wow-delay=".1s"><span class="d-inline-block" style="max-width: 570px;">The way to <strong>bitcoins</strong> is not as complex as it seems</span></h2>
             </div>
           </div>
@@ -186,24 +187,24 @@
               <div class="list-steps__item-counter"></div>
               <div class="list-steps__item-divider"></div>
               <div class="list-steps__item-main">
-                <h4><a href="#">Download Bitcoin Wallet</a></h4>
-                <p>Download Bitcoin Wallet app for your PC, Android, or iOS to create, send and receive bitcoins. You can create multiple wallets for one account.</p>
+                <h4><a href="#">Growth dynamics</a></h4>
+                <p>Stable and steady growth of the crypto currencies rate</p>
               </div>
             </li>
             <li class="list-steps__item wow fadeInLeftSmall" data-wow-delay=".2s">
               <div class="list-steps__item-counter"></div>
               <div class="list-steps__item-divider"></div>
               <div class="list-steps__item-main">
-                <h4><a href="#">Add Coins to Your Wallet</a></h4>
-                <p>Once the app is downloaded you can add the bitcoins you’ve already created or exchanged via credit card.</p>
+                <h4><a href="#">Security</a></h4>
+                <p>Cryptocurrencies are digital assets that use cryptography, an encryption technique, for security</p>
               </div>
             </li>
             <li class="list-steps__item wow fadeInLeftSmall" data-wow-delay=".3s">
               <div class="list-steps__item-counter"></div>
               <div class="list-steps__item-divider"></div>
               <div class="list-steps__item-main">
-                <h4><a href="#">Send/Receive with Wallet</a></h4>
-                <p>The process of sending bitcoins is very easy. In two words, you need to enter receiver's Bitcoin address, specify the amount, confirm address and send.</p>
+                <h4><a href="#">Everywhere</a></h4>
+                <p>You can use the currency anywhere in the worldе</p>
               </div>
             </li>
           </ul>
