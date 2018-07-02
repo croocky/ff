@@ -53,7 +53,7 @@
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="#features">Features</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Team</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Investments</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contacts</a>
                   </li>
@@ -141,7 +141,7 @@
               <p class="text-initial-letter">Welcome! Please keep in mind that this is a commercial website that lists wallets, exchanges and other bitcoin related info.</p>
               <div class="divider-modern"></div>
               <p>Fusce vestibulum, elit quis maximus consequat, nunc elit fermentum orci, ac porttitor nisl ligula vitae sem. In egestas consequat fermentum. Donec dignissim eros et tincidunt venenatis. Integer pulvinar dignissim purus nec ornare. Integer nec elit est. Curabitur vehicula, mauris vel aliquam luctus, nulla ex venenatis diam, non elementum lacus ante sit amet nunc. Nulla facilisi. Maecenas fringilla mauris est. Curabitur tempus dictum amet sed.</p>
-              <div class="group group-middle"><a class="button button-primary" href="#">Create wallet</a><a class="button button-default-outline" href="#">Contact us</a></div>
+              <div class="group group-middle"><a class="button button-primary" href="/register">Register</a></div>
             </div>
             <div class="col-md-10 col-lg-6">
               <div class="image-group-1"><img class="wow fadeIn" src="images/about-image-1-399x307.jpg" alt="" width="399" height="307"/><img class="wow fadeIn" src="images/about-image-2-421x332.jpg" alt="" width="421" height="332" data-wow-delay=".3s"/>
@@ -747,12 +747,13 @@
             <div class="row row-50">
               <div class="col-lg-6">
                 <div class="unit unit-spacing-sm flex-column flex-sm-row align-items-sm-center">
-                  <div class="unit-left"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-105x38.png" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="images/logo-inverse-210x76.png 2x"/></a>
+                  <div class="unit-left"><a class="brand" href="index.html"><img class="brand-logo-dark" src="imgsvg/logo-black.svg" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="imgsvg/logo-black.svg"/></a>
                   </div>
                   <div class="unit-body">
                     <p><span style="max-width: 380px;">Bitcoin is the leading exchange of #1 cryptocurrency offering you the best conversion rates.</span></p>
                   </div>
                 </div>
+                <!--
                 <div class="group group-lg group-middle">
                   <p class="large">Connect with Community</p>
                   <div class="group-item">
@@ -764,6 +765,7 @@
                     </ul>
                   </div>
                 </div>
+                -->
               </div>
               <div class="col-lg-6">
                 <div class="box-inset-3">
@@ -800,7 +802,7 @@
               <ul class="list-bordered">
                 <li>
                   <!-- Rights-->
-                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Bitcoin</span><span>.&nbsp;</span><a href="#">Privacy Policy</a></p>
+                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Swifty</span><span>.&nbsp;</span></p>
                 </li>
                 <li><a href="mailto:#">info@demolink.org</a></li>
               </ul>
