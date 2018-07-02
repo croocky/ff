@@ -580,29 +580,24 @@
       <!-- Our Team-->
       <section class="section section-md bg-white text-center" id="team">
         <div class="container">
-          <h6>Key people</h6>
-          <h2>Meet <strong>our</strong> team</h2>
-          <p>People behind our success</p>
+          <h6>Investment</h6>
+          <h2>Choose your <strong>investment</strong> plan</h2>
+          <p>Our packages</p>
           <div class="row row-50">
             <div class="col-lg-4">
               <!-- Profile Modern-->
               <article class="profile-modern">
-                <figure class="profile-modern__figure"><img src="images/team-member-1-342x303.jpg" alt="" width="342" height="303"/>
-                </figure>
                 <div class="profile-modern__main">
                   <div class="profile-modern__inset">
-                    <h4 class="profile-modern__name">Marcel Vossen</h4>
-                    <h5 class="profile-modern__position">CEO “Bitcoin”</h5>
+                    <h4 class="profile-modern__name">PROMO</h4>
+                    <h5 class="profile-modern__position">Amount of investment <strong>300$ - 5,999$</strong></h5>
                   </div>
-                  <p>Donec sit amet blandit orci, vel venenatis quam. Morbi pharetra sodales nisi quis sollicitudin. Duis semper elementum felis, eu commodo ex lobortis vitae. Etiam id tortor felis. Morbi et convallis.</p>
-                  <div class="profile-modern__inset">
-                    <ul class="list-inline list-inline-xs">
-                      <li><a class="icon icon-md link-default mdi mdi-facebook" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-twitter" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-youtube-play" href="#"></a></li>
-                      <li><a class="icon icon-md link-default mdi mdi-instagram" href="#"></a></li>
-                    </ul>
-                  </div>
+                  <p>
+                  ROI 40% per annum
+                  </p>
+                  <p>
+                  ROI 3.4% per month
+                  </p>
                 </div>
               </article>
             </div>
