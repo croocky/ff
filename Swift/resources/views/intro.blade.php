@@ -747,7 +747,7 @@
             <div class="row row-50">
               <div class="col-lg-6">
                 <div class="unit unit-spacing-sm flex-column flex-sm-row align-items-sm-center">
-                  <div class="unit-left"><a class="brand" href="index.html"><img class="brand-logo-dark" src="imgsvg/logo-black.svg" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="imgsvg/logo-black.svg"/></a>
+                  <div class="unit-left"><a class="brand" href="index.html"><img class="brand-logo-dark" src="imgsvg/logo.svg" alt="" width="105" height="38" srcset="images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="images/logo-inverse-105x38.png" alt="" width="105" height="38" srcset="imgsvg/logo.svg"/></a>
                   </div>
                   <div class="unit-body">
                     <p><span style="max-width: 380px;">Bitcoin is the leading exchange of #1 cryptocurrency offering you the best conversion rates.</span></p>
