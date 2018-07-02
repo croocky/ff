@@ -258,9 +258,10 @@
 
 
       <!-- FSection-->
+      <!--
       <section class="section section-md bg-white">
         <div class="container">
-          <!-- Profile Light-->
+
           <article class="profile-light">
             <figure class="profile-light__figure"><img src="images/features-1-193x201.jpg" alt="" width="193" height="201"/>
             </figure>
@@ -275,28 +276,28 @@
           </article>
           <div class="row row-30">
             <div class="col-lg-6 wow fadeInUpSmall">
-              <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-mouse-right"></span>
+              <a class="link-box" href="#"><span class="icon link-box__icon linearicons-mouse-right"></span>
                 <div class="link-box__main">
                   <h4>Download a Wallet</h4>
                   <p>Easily gain access to your own wallet in a few clicks.</p>
                 </div></a>
             </div>
             <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".02s">
-              <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-cart-exchange"></span>
+              <a class="link-box" href="#"><span class="icon link-box__icon linearicons-cart-exchange"></span>
                 <div class="link-box__main">
                   <h4>Use Bitcoin</h4>
                   <p>You can use your Bitcoins for all kinds of transactions.</p>
                 </div></a>
             </div>
             <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".1s">
-              <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-bag-dollar"></span>
+              <a class="link-box" href="#"><span class="icon link-box__icon linearicons-bag-dollar"></span>
                 <div class="link-box__main">
                   <h4>Time to Buy Bitcoins</h4>
                   <p>Every registered user can buy or exchange bitcoins.</p>
                 </div></a>
             </div>
             <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".12s">
-              <!-- Link Box --><a class="link-box" href="#"><span class="icon link-box__icon linearicons-folder-search"></span>
+              <a class="link-box" href="#"><span class="icon link-box__icon linearicons-folder-search"></span>
                 <div class="link-box__main">
                   <h4>Knowledge Base</h4>
                   <p>Find an answer to any Bitcoin-related question.</p>
@@ -305,6 +306,9 @@
           </div>
         </div>
       </section>
+      -->
+
+      <!--
 
       <section class="section bg-gray-100">
         <div class="container">
@@ -334,6 +338,9 @@
           </div>
         </div>
       </section>
+
+
+      -->
 
       <!-- Most Popular Guides-->
       <section class="section parallax-container section-md bg-gray-700 section-overlay-3 text-center" data-parallax-img="images/features-parallax-1.jpg">
